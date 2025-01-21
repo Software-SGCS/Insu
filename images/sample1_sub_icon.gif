@@ -1,0 +1,10 @@
+e@@QAE?AVCSize@@XZ 7c370240 f   dockstat.obj
+ 0001:0011f260       ?SetScreenSize@CDockState@@QAEXAAVCSize@@@Z 7c370260 f   dockstat.obj
+ 0001:0011f2b0       ?LoadBarState@CFrameWnd@@QAEXPB_W@Z 7c3702b0 f   dockstat.obj
+ 0001:0011f320       ?SaveBarState@CFrameWnd@@QBEXPB_W@Z 7c370320 f   dockstat.obj
+ 0001:0011f390       ?SetDockState@CFrameWnd@@QAEXABVCDockState@@@Z 7c370390 f   dockstat.obj
+ 0001:0011f6b0       ?GetDockState@CFrameWnd@@QBEXAAVCDockState@@@Z 7c3706b0 f   dockstat.obj
+ 0001:0011f7a0       ?GetBarInfo@CControlBar@@QAEXPAVCControlBarInfo@@@Z 7c3707a0 f   dockstat.obj
+ 0001:0011f910       ?SetBarInfo@CControlBar@@QAEXPAVCControlBarInfo@@PAVCFrameWnd@@@Z 7c370910 f   dockstat.obj
+ 0001:0011fa60       ?GetBarInfo@CDockBar@@QAEXPAVCControlBarInfo@@@Z 7c370a60 f   dockstat.obj
+ 0001:0011fbb0     

@@ -1,0 +1,11 @@
+60       ?SetItemHeight@CTreeCtrl@@QAEFF@Z 7c325260 f   winctrl2.obj
+ 0001:000d42b0       ?GetTextColor@CTreeCtrl@@QBEKXZ 7c3252b0 f   winctrl2.obj
+ 0001:000d4300       ?SetTextColor@CTreeCtrl@@QAEKK@Z 7c325300 f   winctrl2.obj
+ 0001:000d4350       ?SetInsertMark@CTreeCtrl@@QAEHPAU_TREEITEM@@H@Z 7c325350 f   winctrl2.obj
+ 0001:000d43a0       ?GetInsertMarkColor@CTreeCtrl@@QBEKXZ 7c3253a0 f   winctrl2.obj
+ 0001:000d43f0       ?SetInsertMarkColor@CTreeCtrl@@QAEKK@Z 7c3253f0 f   winctrl2.obj
+ 0001:000d4440       ?GetLineColor@CTreeCtrl@@QBEKXZ 7c325440 f   winctrl2.obj
+ 0001:000d4490       ?SetLineColor@CTreeCtrl@@QAEKK@Z 7c325490 f   winctrl2.obj
+ 0001:000d44e0       ??0CHotKeyCtrl@@QAE@XZ     7c3254e0 f   winctrl2.obj
+ 0001:000d4500       ?SetHotKey@CHotKeyCtrl@@QAEXGG@Z 7c325500 f   winctrl2.obj
+ 0001:000d4570       ?Ge

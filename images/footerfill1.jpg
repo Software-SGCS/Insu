@@ -1,0 +1,16 @@
+PAUCRuntimeClass@@@Z 7c17576e f   oledoc1.obj
+ 0001:00034788       ?UpdateFrameCounts@CDocument@@UAEXXZ 7c175788 f   doccore.obj
+ 0001:00034831       ?OnChangedViewList@CDocument@@UAEXXZ 7c175831 f   doccore.obj
+ 0001:00034843       ?OnActivateView@CView@@MAEXHPAV1@0@Z 7c175843 f   viewcore.obj
+ 0001:00034855       ?SetActiveView@CFrameWnd@@QAEXPAVCView@@H@Z 7c175855 f   winfrm.obj
+ 0001:000348a5       ?IsKindOf@CObject@@QBEHPBUCRuntimeClass@@@Z 7c1758a5 f   objcore.obj
+ 0001:000348fe       ?OnAppExit@CWinApp@@IAEXXZ 7c1758fe f   appui.obj
+ 0001:00034911       ?OnClose@CFrameWnd@@IAEXXZ 7c175911 f   winfrm.obj
+ 0001:000349aa       ?AfxOleTerm@@YGXH@Z        7c1759aa f   oleinit.obj
+ 0001:00034a0f       ?AfxOleUnlockAllControls@@YGXXZ 7c175a0f f   occlock.obj
+ 0001:00034a39       ?RevokeAll@COleObjectFactory@@SGXXZ 7c175a39 f   olefact.obj
+ 0001:00034a83       ?GetClipboardOwner@COleDataSource@@SGPAV1@XZ 7c175a83 f   oledobj2.obj
+ 0001:00034aa4       ?FlushClipboard@COleDataSource@@SGXXZ 7c175aa4 f   oledobj2.obj
+ 0001:00034ab2       ?Revoke@COleObjectFactory@@QAEXXZ 7c175ab2 f   olefact.obj
+ 0001:00034ac1       ?AfxPostQuitMessage@@YGXH@Z 7c175ac1 f   appcore.obj
+ 0001:00034b20       ??_7_A

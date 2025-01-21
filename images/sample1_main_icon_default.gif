@@ -1,0 +1,12 @@
+d.obj
+ 0001:000dd180       ?Append@CDWordArray@@QAEHABV1@@Z 7c32e180 f   array_d.obj
+ 0001:000dd220       ?Copy@CDWordArray@@QAEXABV1@@Z 7c32e220 f   array_d.obj
+ 0001:000dd2a0       ?FreeExtra@CDWordArray@@QAEXXZ 7c32e2a0 f   array_d.obj
+ 0001:000dd370       ?SetAtGrow@CDWordArray@@QAEXHK@Z 7c32e370 f   array_d.obj
+ 0001:000dd3e0       ?InsertAt@CDWordArray@@QAEXHKH@Z 7c32e3e0 f   array_d.obj
+ 0001:000dd520       ?RemoveAt@CDWordArray@@QAEXHH@Z 7c32e520 f   array_d.obj
+ 0001:000dd610       ?InsertAt@CDWordArray@@QAEXHPAV1@@Z 7c32e610 f   array_d.obj
+ 0001:000dd720       ?Serialize@CDWordArray@@UAEXAAVCArchive@@@Z 7c32e720 f   array_d.obj
+ 0001:000dd850       ?Dump@CDWordArray@@UBEXAAVCDumpContext@@@Z 7c32e850 f   array_d.obj
+ 0001:000dd910       ?AssertValid@CDWordArray@@UBEXXZ 7c32e910 f   array_d.obj
+ 0001:000dda00       

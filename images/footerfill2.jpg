@@ -1,0 +1,9 @@
+ msvcrt:MSVCR71.dll
+ 0001:00081f64       __except_handler3          7c2d2f64 f   msvcrt:MSVCR71.dll
+ 0001:00081f6a       _strlen                    7c2d2f6a f   msvcrt:MSVCR71.dll
+ 0001:00081f70       _free                      7c2d2f70 f   msvcrt:MSVCR71.dll
+ 0001:00081f76       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 7c2d2f76 f   msvcrt:ehvecdtr.obj
+ 0001:00081fe4       __CxxThrowException@8      7c2d2fe4 f   msvcrt:MSVCR71.dll
+ 0001:00081fea       __purecall                 7c2d2fea f   msvcrt:MSVCR71.dll
+ 0001:00081ff0       _abs                       7c2d2ff0 f   msvcrt:MSVCR71.dll
+ 0001:00081ff6       ??1type_i

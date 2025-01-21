@@ -1,0 +1,9 @@
+@CWnd@@UAGJJUtagVARIANT@@PAU3@@Z 7c344dd0 f   wincore.obj
+ 0001:000f3e70       ?accHitTest@XAccessible@CWnd@@UAGJJJPAUtagVARIANT@@@Z 7c344e70 f   wincore.obj
+ 0001:000f3ef0       ?accDoDefaultAction@XAccessible@CWnd@@UAGJUtagVARIANT@@@Z 7c344ef0 f   wincore.obj
+ 0001:000f3f80       ?put_accName@XAccessible@CWnd@@UAGJUtagVARIANT@@PA_W@Z 7c344f80 f   wincore.obj
+ 0001:000f4010       ?put_accValue@XAccessible@CWnd@@UAGJUtagVARIANT@@PA_W@Z 7c345010 f   wincore.obj
+ 0001:000f40a0       ?AddRef@XAccessibleServer@CWnd@@UAGKXZ 7c3450a0 f   wincore.obj
+ 0001:000f4110       ?Release@XAccessibleServer@CWnd@@UAGKXZ 7c345110 f   wincore.obj
+ 0001:000f4180       ?QueryInterface@XAccessibleServer@CWnd@@UAGJABU_GUID@@PAPAX@Z 7c345180 f   wincore.obj
+ 0001:000f41f0       ?SetProxy@XAccessibleServer@CWnd@@UAGJPAUIAccessibleProxy@@@Z 7c3451f0 f  

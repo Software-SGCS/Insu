@@ -1,0 +1,120 @@
+.cnnRRbox {
+	WIDTH: 249px
+}
+.cnnRRbox TABLE {
+	WIDTH: 235px
+}
+DIV.cnnBinNav {
+	BACKGROUND: url(http://i.a.cnn.net/cnn/.element/img/1.3/misc/sect.gray.gradient.wd.gif) 0px 0px; WIDTH: 294px; max-width: 294px
+}
+.cnnTravelot TABLE {
+	WIDTH: 590px; max-width: 590px
+}
+#cnnPartners {
+	FONT-SIZE: 12px; MARGIN: 0px 0px 20px 8px; WIDTH: 868px; max-width: 868px
+}
+.cnnPartner1 {
+	WIDTH: 279px
+}
+.cnnPartner2 {
+	WIDTH: 279px
+}
+.cnnPartner3 {
+	WIDTH: 280px
+}
+.cnnTraveller {
+	FLOAT: right; WIDTH: 249px
+}
+#cnnFootNav {
+	WIDTH: 868px
+}
+#cnnFootNav TABLE TD {
+	PADDING-RIGHT: 14px; PADDING-LEFT: 14px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+#cnnFootNav TABLE TD.cnnFootNavPad {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#cnnFootBox {
+	WIDTH: 868px
+}
+#cnnFootSearch .cnnInput {
+	WIDTH: 324px
+}
+#cnnFoot #cnnIconMap TD IMG {
+	VERTICAL-ALIGN: middle; MARGIN-RIGHT: 1px
+}
+#cnnCeil TD.cnnCeilW {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px
+}
+DIV.cnnCeilAd {
+	WIDTH: 876px
+}
+DIV.cnnCeilAd DIV {
+	MARGIN: 0px 73px
+}
+#cnnCeilSearch {
+	WIDTH: 876px
+}
+#cnnCeilSearch .cnnInput {
+	WIDTH: 334px
+}
+DIV.cnnNoCeilAd {
+	WIDTH: 876px
+}
+#cnnAboveFold #cnnRightCol {
+	PADDING-LEFT: 15px
+}
+#cnnLeftCol .cnnBulletList {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 7px; PADDING-TOP: 7px
+}
+#cnnRightCol .cnnBulletList {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 17px; PADDING-TOP: 7px
+}
+.cnnT1Blurb {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 12px; PADDING-BOTTOM: 10px; PADDING-TOP: 0px
+}
+.cnnT1Blurb P {
+	MARGIN-TOP: 4px; MARGIN-BOTTOM: 0.5em
+}
+.cnnT1ImgCaption {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 6px; WIDTH: 334px; PADDING-TOP: 3px
+}
+#cnnMainPageRB #cnnT1 {
+	MARGIN-BOTTOM: 10px
+}
+#cnnMainPageLS .cnnT1Blurb P {
+	MARGIN-TOP: 10px
+}
+#cnnT2Box {
+	WIDTH: 371px
+}
+#cnnT2Box DIV.cnnBoxTitle {
+	WIDTH: 371px; PADDING-TOP: 2px
+}
+#cnnLeftCol #cnnT2Box {
+	WIDTH: 354px
+}
+.cnnBodyText10 {
+	FONT-SIZE: 10px
+}
+.cnnPadR0px {
+	PADDING-RIGHT: 0px! important
+}
+.cnnPadL0px {
+	PADDING-LEFT: 0px! important
+}
+.cnn4pxTpad {
+	PADDING-TOP: 4px
+}
+.cnnRadio {
+	MARGIN-TOP: 15px; MARGIN-BOTTOM: 16px
+}
+#cnnMainPageLS .cnnRadio {
+	MARGIN-BOTTOM: 0px
+}
+.cnnSplitLk {
+	WIDTH: 876px
+}
+.cnnLo {
+	MARGIN-LEFT: 10px; COLOR: #06c
+}

@@ -1,0 +1,13 @@
+viewDC@@UAEHPB_WHPAUtagRECT@@I@Z 7c3faf30 f   dcprev.obj
+ 0001:001aa070       ?DrawTextExW@CPreviewDC@@UAEHPA_WHPAUtagRECT@@IPAUtagDRAWTEXTPARAMS@@@Z 7c3fb070 f   dcprev.obj
+ 0001:001aa1b0       ?GrayStringW@CPreviewDC@@UAEHPAVCBrush@@P6GHPAUHDC__@@JH@ZJHHHHH@Z 7c3fb1b0 f   dcprev.obj
+ 0001:001aa210       ?Escape@CPreviewDC@@UAEHHHPBDPAX@Z 7c3fb210 f   dcprev.obj
+ 0001:001aa310       ?MirrorMappingMode@CPreviewDC@@IAEXH@Z 7c3fb310 f   dcprev.obj
+ 0001:001aa550       ?MirrorViewportOrg@CPreviewDC@@IAEXXZ 7c3fb550 f   dcprev.obj
+ 0001:001aa630       ?SetTopLeftOffset@CPreviewDC@@QAEXVCSize@@@Z 7c3fb630 f   dcprev.obj
+ 0001:001aa680       ?ClipToPage@CPreviewDC@@QAEXXZ 7c3fb680 f   dcprev.obj
+ 0001:001aa770       ?PrinterDPtoScreenDP@CPreviewDC@@QBEXPAUtagPOINT@@@Z 7c3fb770 f   dcprev.obj
+ 0001:001aa860       ??_ECPreviewDC@@UAEPAXI@Z  7c3fb860 f i dcprev.obj
+ 0001:001aa860       ??_GCPreviewDC@@UAEPAXI@Z  7c3fb860 f i dcprev.obj
+ 0001:001aa890       ??0CMetaFileDC@@QAE@XZ     7c3fb890 f   dcmeta.obj
+ 0001:001aa8b0       ?Se

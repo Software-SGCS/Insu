@@ -1,0 +1,10 @@
+chiveStream@@UAGJK@Z 7c31d5e0 f   arcstrm.obj
+ 0001:000cc5f0       ?Revert@CArchiveStream@@UAGJXZ 7c31d5f0 f   arcstrm.obj
+ 0001:000cc600       ?LockRegion@CArchiveStream@@UAGJT_ULARGE_INTEGER@@0K@Z 7c31d600 f   arcstrm.obj
+ 0001:000cc610       ?UnlockRegion@CArchiveStream@@UAGJT_ULARGE_INTEGER@@0K@Z 7c31d610 f   arcstrm.obj
+ 0001:000cc620       ?Stat@CArchiveStream@@UAGJPAUtagSTATSTG@@K@Z 7c31d620 f   arcstrm.obj
+ 0001:000cc630       ?Clone@CArchiveStream@@UAGJPAPAUIStream@@@Z 7c31d630 f   arcstrm.obj
+ 0001:000cc640       ?GetThisMessageMap@CToolTipCtrl@@KGPBUAFX_MSGMAP@@XZ 7c31d640 f   tooltip.obj
+ 0001:000cc650       ?GetMessageMap@CToolTipCtrl@@MBEPBUAFX_MSGMAP@@XZ 7c31d650 f   tooltip.obj
+ 0001:000cc660       ??0CToolTipCtrl@@QAE@XZ    7c31d660 f   tooltip.obj
+ 0001:000cc6c0       ?Create@CToolTipCtrl@@UAEHPAVCWnd@@K@Z 7c31d

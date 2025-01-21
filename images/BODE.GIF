@@ -1,0 +1,47 @@
+001:0002e190       ??_R3CEnumConnPoints@@8    7c16f190     oleconn.obj
+ 0001:0002e1a0       ??_R2CEnumConnPoints@@8    7c16f1a0     oleconn.obj
+ 0001:0002e1b1       ??0CBrowserControlSite@@QAE@PAVCOleControlContainer@@PAVCDHtmlDialog@@@Z 7c16f1b1 f   dlgdhtml.obj
+ 0001:0002e1e4       ??_7CBrowserControlSite@@6BIDocHostUIHandler@@@ 7c16f1e4     dlgdhtml.obj
+ 0001:0002e234       ??_7CBrowserControlSite@@6BCOleControlSite@@@ 7c16f234     dlgdhtml.obj
+ 0001:0002e300       ??_R4CBrowserControlSite@@6BCOleControlSite@@@ 7c16f300     dlgdhtml.obj
+ 0001:0002e314       ??_R3CBrowserControlSite@@8 7c16f314     dlgdhtml.obj
+ 0001:0002e324       ??_R2CBrowserControlSite@@8 7c16f324     dlgdhtml.obj
+ 0001:0002e33d       ??0XEventConnPt@COleControl@@QAE@XZ 7c16f33d f   ctlcore.obj
+ 0001:0002e35c       ??_7XEventConnPt@COleControl@@6B@ 7c16f35c     ctlcore.obj
+ 0001:0002e3c8       ??_R4XEventConnPt@COleControl@@6B@ 7c16f3c8     ctlcore.obj
+ 0001:0002e3dc       ??_R3XEventConnPt@COleControl@@8 7c16f3dc     ctlcore.obj
+ 0001:0002e3ec       ??0XPropConnPt@COleControl@@QAE@XZ 7c16f3ec f   ctlcore.obj
+ 0001:0002e40c       ??_7XPropConnPt@COleControl@@6B@ 7c16f40c     ctlcore.obj
+ 0001:0002e478       ??_R4XPropConnPt@COleControl@@6B@ 7c16f478     ctlcore.obj
+ 0001:0002e48c       ??_R3XPropConnPt@COleControl@@8 7c16f48c     ctlcore.obj
+ 0001:0002e49c       ??0CControlDataSource@COleControl@@QAE@PAV1@@Z 7c16f49c f   ctldata.obj
+ 0001:0002e4c4       ??_7CControlDataSource@COleControl@@6B@ 7c16f4c4     ctldata.obj
+ 0001:0002e52c       ??_R4CControlDataSource@COleControl@@6B@ 7c16f52c     ctldata.obj
+ 0001:0002e540       ??_R3CControlDataSource@COleControl@@8 7c16f540     ctldata.obj
+ 0001:0002e550       ??0COleDropSource@@QAE@XZ  7c16f550 f   oledrop1.obj
+ 0001:0002e5e4       ??_7XDropSource@COleDropSource@@6B@ 7c16f5e4     oledrop1.obj
+ 0001:0002e614       ??_7COleDropSource@@6B@    7c16f614     oledrop1.obj
+ 0001:0002e678       ??_R4COleDropSource@@6B@   7c16f678     oledrop1.obj
+ 0001:0002e68c       ??_R3COleDropSource@@8     7c16f68c     oledrop1.obj
+ 0001:0002e69c       ??0COleServerItem@@IAE@PAVCOleServerDoc@@H@Z 7c16f69c f   olesvr2.obj
+ 0001:0002e75c       ??_7CItemDataSource@COleServerItem@@6B@ 7c16f75c     olesvr2.obj
+ 0001:0002e7cc       ??_7XOleObject@COleServerItem@@6B@ 7c16f7cc     olesvr2.obj
+ 0001:0002e830       ??_7XDataObject@COleServerItem@@6B@ 7c16f830     olesvr2.obj
+ 0001:0002e860       ??_R4CItemDataSource@COleServerItem@@6B@ 7c16f860     olesvr2.obj
+ 0001:0002e874       ??_R3CItemDataSource@COleServerItem@@8 7c16f874     olesvr2.obj
+ 0001:0002e88c       ??_7COleDocument@@6B@      7c16f88c     oledoc1.obj
+ 0001:0002e974       ??_R4COleDocument@@6B@     7c16f974     oledoc1.obj
+ 0001:0002e988       ??_R3COleDocument@@8       7c16f988     oledoc1.obj
+ 0001:0002e998       ??_R2COleDocument@@8       7c16f998     oledoc1.obj
+ 0001:0002e9b4       ??_7COleLinkingDoc@@6B@    7c16f9b4     olelink.obj
+ 0001:0002eaa8       ??_R4COleLinkingDoc@@6B@   7c16faa8     olelink.obj
+ 0001:0002eabc       ??_R3COleLinkingDoc@@8     7c16fabc     olelink.obj
+ 0001:0002eacc       ??_R2COleLinkingDoc@@8     7c16facc     olelink.obj
+ 0001:0002eae1       ?_AfxCbtFilterHook@@YGJHIJ@Z 7c16fae1 f   wincore.obj
+ 0001:0002ecb7       ?DefWindowProcA@CWnd@@MAEJIIJ@Z 7c16fcb7 f   wincore.obj
+ 0001:0002ece0       ?AfxFindMessageEntry@@YGPBUAFX_MSGMAP_ENTRY@@PBU1@III@Z 7c16fce0 f   wincore.obj
+ 0001:0002ed76       ?GetMessageMap@CWnd@@MBEPBUAFX_MSGMAP@@XZ 7c16fd76 f   wincore.obj
+ 0001:0002ed76       ?GetThisMessageMap@CWnd@@KGPBUAFX_MSGMAP@@XZ 7c16fd76 f   wincore.obj
+ 0001:0002ed7c       ?messageMap@CWnd@@1UAFX_MSGMAP@@B 7c16fd7c     wincore.obj
+ 0001:0002ed88       ?_messageEntries@CWnd@@0QBUAFX_MSGMAP_ENTRY@@B 7c16fd88     wincore.obj
+ 0001:0002f058       ?GetMessageMap@CDialog@@MB

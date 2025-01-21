@@ -1,0 +1,13 @@
+ad     oledlg:oledlg.dll
+ 0001:000c68b7       __tailMerge_oledlg         7c3178b7     oledlg:oledlg.dll
+ 0001:000c68c8       _OleUIInsertObjectW@4      7c3178c8 f   oledlg:oledlg.dll
+ 0001:000c68ce       __imp_load__OleUIConvertW@4 7c3178ce     oledlg:oledlg.dll
+ 0001:000c68d8       _OleUIConvertW@4           7c3178d8 f   oledlg:oledlg.dll
+ 0001:000c68de       __imp_load__OleUIChangeIconW@4 7c3178de     oledlg:oledlg.dll
+ 0001:000c68e8       _OleUIChangeIconW@4        7c3178e8 f   oledlg:oledlg.dll
+ 0001:000c68ee       __imp_load__OleUIEditLinksW@4 7c3178ee     oledlg:oledlg.dll
+ 0001:000c68f8       _OleUIEditLinksW@4         7c3178f8 f   oledlg:oledlg.dll
+ 0001:000c68fe       __imp_load__OleUIUpdateLinksW@16 7c3178fe     oledlg:oledlg.dll
+ 0001:000c6908       _OleUIUpdateLinksW@16      7c317908 f   oledlg:oledlg.dll
+ 0001:000c690e       __imp_load__OleUIPasteSpecialW@4 7c31790e     oledlg:oledlg.dll
+ 0001:000

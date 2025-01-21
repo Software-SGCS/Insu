@@ -1,0 +1,11 @@
+@CAsyncSocket@@QAEHPBUsockaddr@@H@Z 7c403b10 f   sockcore.obj
+ 0001:001b2b30       ?IOCtl@CAsyncSocket@@QAEHJPAK@Z 7c403b30 f   sockcore.obj
+ 0001:001b2b60       ?Listen@CAsyncSocket@@QAEHH@Z 7c403b60 f   sockcore.obj
+ 0001:001b2b90       ?ReceiveFrom@CAsyncSocket@@QAEHPAXHPAUsockaddr@@PAHH@Z 7c403b90 f   sockcore.obj
+ 0001:001b2bc0       ?ShutDown@CAsyncSocket@@QAEHH@Z 7c403bc0 f   sockcore.obj
+ 0001:001b2bf0       ?SendTo@CAsyncSocket@@QAEHPBXHPBUsockaddr@@HH@Z 7c403bf0 f   sockcore.obj
+ 0001:001b2c20       ?Create@CSocket@@QAEHIHPB_W@Z 7c403c20 f   sockcore.obj
+ 0001:001b2c50       ?IsBlocking@CSocket@@QAEHXZ 7c403c50 f   sockcore.obj
+ 0001:001b2c70       ?FromHandle@CSocket@@SGPAV1@I@Z 7c403c70 f   sockcore.obj
+ 0001:001b2c90       ?Attach@CSocket@@QAEHI@Z   7c403c90 f   sockcore.obj
+ 0001:001b2cb0       ??_G_AFX_SOCK

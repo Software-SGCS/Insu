@@ -1,0 +1,249 @@
+BODY {
+	WIDTH: 876px
+}
+#cnnBreakingNewsBanner TABLE#cnnWatchNowBar {
+	WIDTH: 876px
+}
+#cnnBreakingNewsBanner TABLE#cnnBreakingNewsBar {
+	WIDTH: 876px
+}
+#cnnAboveFold #cnnBizBoxCell {
+	PADDING-LEFT: 15px
+}
+#cnnIntlTopRight {
+	WIDTH: 371px
+}
+.cnnRBad {
+	PADDING-RIGHT: 0px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 0px; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; BORDER-BOTTOM: #ccc 1px solid; BACKGROUND-COLOR: #fff; TEXT-ALIGN: center
+}
+.cnnPromoTable {
+	BACKGROUND-COLOR: #fff
+}
+.cnnPromoTable TD.cnnPromoTz {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.cnnPromoTable TD.cnnPromoTz A {
+	FONT-WEIGHT: bold
+}
+DIV#tab {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 10px
+}
+.cnnIntlBigCharts {
+	WIDTH: 100%
+}
+.cnnIntlBigChartsHd {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px
+}
+.cnnIntlBigChartsHd A {
+	COLOR: #000! important; TEXT-DECORATION: none! important
+}
+.cnnIntlBigChartsHd A:hover {
+	COLOR: #000! important; TEXT-DECORATION: none! important
+}
+.cnnIntlBigCharts TABLE {
+	WIDTH: 100%; BACKGROUND-COLOR: #eee
+}
+.cnnIntlBigCharts TABLE TD {
+	PADDING-RIGHT: 0px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #ddd 1px solid
+}
+.cnnIntlBigCharts TABLE TD A {
+	FONT-WEIGHT: bold
+}
+TD.cnnIntlBigChartsWhite {
+	BORDER-BOTTOM: #ddd 2px solid; BACKGROUND-COLOR: #fff
+}
+TD.cnnIntlBigChartsWhiteLft {
+	PADDING-LEFT: 10px; FONT-WEIGHT: bold; BORDER-LEFT: #ddd 1px solid; WIDTH: 124px; BORDER-BOTTOM: #ddd 2px solid; BACKGROUND-COLOR: #fff
+}
+TD.cnnIntlBigChartsGrey {
+	BORDER-BOTTOM: #ddd 2px solid; BACKGROUND-COLOR: #eee
+}
+TD.cnnIntlBigChartsGreyRt {
+	BORDER-RIGHT: #ddd 1px solid
+}
+.cnn10pxLpad {
+	PADDING-LEFT: 10px
+}
+TABLE.cnnIntlBigChartsFoot {
+	WIDTH: 100%
+}
+TABLE.cnnIntlBigChartsFoot TD {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-SIZE: 9px; BORDER-LEFT: medium none; COLOR: #666; BORDER-BOTTOM: medium none; HEIGHT: 15px; BACKGROUND-COLOR: #fff
+}
+.cnnTab3Visible .cnnTab3Container {
+	DISPLAY: inline; VISIBILITY: visible; WIDTH: 100%
+}
+.cnnTab3Visible .cnnTab4Container {
+	DISPLAY: none; VISIBILITY: hidden
+}
+.cnnTab3Visible .cnnTab5Container {
+	DISPLAY: none; VISIBILITY: hidden
+}
+.cnnTab3Visible .cnnTabRow3bg {
+	MARGIN-TOP: 2px; BACKGROUND-IMAGE: url(http://i.a.cnn.net/cnn/.element/img/1.3/main/biz.tab.wd.bg.on.gif); PADDING-TOP: 2px
+}
+.cnnTab3Visible .cnnTabRow4bg {
+	MARGIN-TOP: 2px; BACKGROUND-IMAGE: url(http://i.a.cnn.net/cnn/.element/img/1.3/main/biz.tab.wd.bg.off.gif); PADDING-TOP: 2px
+}
+.cnnTab3Visible .cnnTabRow5bg {
+	MARGIN-TOP: 2px; BACKGROUND-IMAGE: url(http://i.a.cnn.net/cnn/.element/img/1.3/main/biz.tab.wd.bg.off.gif); PADDING-TOP: 2px
+}
+.cnnTabRow3 {
+	PADDING-RIGHT: 6px; MARGIN-TOP: 2px; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.cnnTabRow3 A {
+	FONT-SIZE: 10px; COLOR: #333! important; TEXT-DECORATION: none
+}
+.cnnTab4Visible .cnnTab3Container {
+	DISPLAY: none; VISIBILITY: hidden
+}
+.cnnTab4Visible .cnnTab4Container {
+	DISPLAY: inline; VISIBILITY: visible
+}
+.cnnTab4Visible .cnnTab5Container {
+	DISPLAY: none; VISIBILITY: hidden
+}
+.cnnTab4Visible .cnnTabRow3bg {
+	MARGIN-TOP: 2px; BACKGROUND-IMAGE: url(http://i.a.cnn.net/cnn/.element/img/1.3/main/biz.tab.wd.bg.off.gif); PADDING-TOP: 2px
+}
+.cnnTab4Visible .cnnTabRow4bg {
+	MARGIN-TOP: 2px; BACKGROUND-IMAGE: url(http://i.a.cnn.net/cnn/.element/img/1.3/main/biz.tab.wd.bg.on.gif); PADDING-TOP: 2px
+}
+.cnnTab4Visible .cnnTabRow5bg {
+	MARGIN-TOP: 2px; BACKGROUND-IMAGE: url(http://i.a.cnn.net/cnn/.element/img/1.3/main/biz.tab.wd.bg.off.gif); PADDING-TOP: 2px
+}
+.cnnTabRow4 {
+	PADDING-RIGHT: 6px; MARGIN-TOP: 2px; PADDING-LEFT: 6px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.cnnTabRow4 A {
+	TEXT-DECORATION: none! important
+}
+.cnnTab5Visible .cnnTab3Container {
+	DISPLAY: none; VISIBILITY: hidden
+}
+.cnnTab5Visible .cnnTab4Container {
+	DISPLAY: none; VISIBILITY: hidden
+}
+.cnnTab5Visible .cnnTab5Container {
+	DISPLAY: inline; VISIBILITY: visible
+}
+.cnnTab5Visible .cnnTabRow3bg {
+	MARGIN-TOP: 2px; BACKGROUND-IMAGE: url(http://i.a.cnn.net/cnn/.element/img/1.3/main/biz.tab.wd.bg.off.gif); PADDING-TOP: 2px
+}
+.cnnTab5Visible .cnnTabRow4bg {
+	MARGIN-TOP: 2px; BACKGROUND-IMAGE: url(http://i.a.cnn.net/cnn/.element/img/1.3/main/biz.tab.wd.bg.off.gif); PADDING-TOP: 2px
+}
+.cnnTab5Visible .cnnTabRow5bg {
+	MARGIN-TOP: 2px; BACKGROUND-IMAGE: url(http://i.a.cnn.net/cnn/.element/img/1.3/main/biz.tab.wd.bg.on.gif); PADDING-TOP: 2px
+}
+.cnnTabRow5 {
+	PADDING-RIGHT: 6px; MARGIN-TOP: 2px; PADDING-LEFT: 6px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.cnnTabRow5 A {
+	TEXT-DECORATION: none! important
+}
+.cnnT1 .cnnBN {
+	BACKGROUND: #fff200; COLOR: #000
+}
+#cnnMainPage #cnnIntlMainTabContainer .cnnTabBox {
+	BACKGROUND: url(http://i.a.cnn.net/cnn/.element/img/1.3/intl/main/tab_bg_internat.gif) no-repeat 0px -1px; OVERFLOW: hidden; WIDTH: 371px; POSITION: relative; HEIGHT: 28px
+}
+#cnnMainPageRB #cnnIntlMainTabContainer .cnnTabBox {
+	BACKGROUND: url(http://i.a.cnn.net/cnn/.element/img/1.3/intl/main/tab_bg_internat.gif) no-repeat 0px -1px; OVERFLOW: hidden; WIDTH: 371px; POSITION: relative; HEIGHT: 28px
+}
+#cnnMainPageLS #cnnIntlMainTabContainer .cnnTabBox {
+	BACKGROUND: url(http://i.a.cnn.net/cnn/.element/img/1.3/intl/main/tab_bg_internat.gif) no-repeat 0px -59px; OVERFLOW: hidden; WIDTH: 354px; POSITION: relative; HEIGHT: 28px
+}
+#cnnMainPage #cnnIntlMainTabContainer #cnnTabOne {
+	LEFT: 24px
+}
+#cnnMainPageRB #cnnIntlMainTabContainer #cnnTabOne {
+	LEFT: 24px
+}
+#cnnMainPage #cnnIntlMainTabContainer #cnnTabTwo {
+	LEFT: 194px
+}
+#cnnMainPageRB #cnnIntlMainTabContainer #cnnTabTwo {
+	LEFT: 194px
+}
+#cnnMainPageLS #cnnIntlMainTabContainer #cnnTabOne {
+	LEFT: 16px
+}
+#cnnMainPageLS #cnnIntlMainTabContainer #cnnTabTwo {
+	LEFT: 176px
+}
+#cnnTabOne {
+	WIDTH: 160px; CURSOR: pointer; POSITION: absolute; TOP: 10px; HEIGHT: 18px; TEXT-ALIGN: center
+}
+#cnnTabTwo {
+	WIDTH: 160px; CURSOR: pointer; POSITION: absolute; TOP: 10px; HEIGHT: 18px; TEXT-ALIGN: center
+}
+#cnnTabOne IMG {
+	MARGIN-TOP: 3px
+}
+#cnnTabTwo IMG {
+	MARGIN-TOP: 3px
+}
+.active#cnnTabOne {
+	CURSOR: default
+}
+.active#cnnTabTwo {
+	CURSOR: default
+}
+#cnnTabContentTwo {
+	DISPLAY: none
+}
+UL.cnnTopStories {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 4px 0px 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+UL.cnnTopStories LI {
+	PADDING-LEFT: 8px; FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND: url(http://i.a.cnn.net/cnn/.element/img/1.3/sect/CNN/Programs/misc/default.bullet.round.gif) no-repeat left center; MARGIN: 0px 0px 4px
+}
+UL.cnnTopStories LI B.cnnNoBullet {
+	DISPLAY: inline; BACKGROUND: #fff; MARGIN-LEFT: -8px
+}
+UL.cnnTopStories LI.cnnNobullet {
+	BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-LEFT: -8px
+}
+UL.cnnTopStories LI A {
+	FONT-WEIGHT: bold
+}
+ HTML UL.cnnTopStories LI {
+	MARGIN: 0px; LINE-HEIGHT: 18px
+}
+ HTML UL.cnnTopStories LI IMG.cnnOffsite {
+	MARGIN-TOP: 1px; VERTICAL-ALIGN: 0%
+}
+OL.cnnMostPopular {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LIST-STYLE-POSITION: outside; PADDING-BOTTOM: 0px; MARGIN: 4px 0px 0px; PADDING-TOP: 0px
+}
+OL.cnnMostPopular LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; MARGIN-BOTTOM: 3px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 25px; PADDING-TOP: 0px
+}
+OL.cnnMostPopular LI A {
+	FONT-WEIGHT: bold
+}
+ HTML BODY OL.cnnMostPopular LI {
+	MARGIN-BOTTOM: 2px; MARGIN-LEFT: 28px
+}
+UL.cnnMostPopular LI.cnnMPVideo {
+	PADDING-LEFT: 25px; BACKGROUND: url(http://i.a.cnn.net/cnn/.element/img/1.5/main/icon_video.gif) no-repeat 0px 0px
+}
+UL.cnnMostPopular LI.cnnMPLive {
+	PADDING-LEFT: 53px; BACKGROUND: url(http://i.a.cnn.net/cnn/.element/img/1.5/main/live_icon.gif) no-repeat 0px 0px
+}
+#cnnTopStoriesFooterBlurb {
+	FONT-SIZE: 11px; COLOR: #666
+}
+#cnnMainPage .cnnIntlT2Wrapper {
+	BORDER-TOP: #2f4571 2px solid; BACKGROUND: none transparent scroll repeat 0% 0%; WIDTH: 371px; COLOR: #000
+}
+#cnnMainPageRB .cnnIntlT2Wrapper {
+	BORDER-TOP: #2f4571 2px solid; BACKGROUND: none transparent scroll repeat 0% 0%; WIDTH: 371px; COLOR: #000
+}
+#cnnMainPageLS .cnnIntlT2Wrapper {
+	BORDER-TOP: #2f4571 2px solid; BACKGROUND: none transparent scroll repeat 0% 0%; WIDTH: 354px; COLOR: #000
+}
+.cnnIntlT2Header {
+	MARGIN: 6px 0px 8px
+}

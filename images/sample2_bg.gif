@@ -1,0 +1,11 @@
+7c400a20 f   viewprev.obj
+ 0001:001afd20       ??1?$CComPtr@UIOleInPlaceUIWindow@@@ATL@@QAE@XZ 7c400d20 f i viewprev.obj
+ 0001:001afd40       ??_GCPreviewView@@UAEPAXI@Z 7c400d40 f i viewprev.obj
+ 0001:001afd40       ??_ECPreviewView@@UAEPAXI@Z 7c400d40 f i viewprev.obj
+ 0001:001afd70       ??_GCPrintInfo@@QAEPAXI@Z  7c400d70 f i viewprev.obj
+ 0001:001afda0       ?GetPrinterDeviceDefaults@CWinApp@@QAEHPAUtagPDW@@@Z 7c400da0 f   appprnt.obj
+ 0001:001afe10       ?UpdatePrinterSelection@CWinApp@@IAEXH@Z 7c400e10 f   appprnt.obj
+ 0001:001b01d0       ?DoPrintDialog@CWinApp@@QAEHPAVCPrintDialog@@@Z 7c4011d0 f   appprnt.obj
+ 0001:001b0340       ?OnFilePrintSetup@CWinApp@@IAEXXZ 7c401340 f   appprnt.obj
+ 0001:001b03c0       ?SelectPrinter@CWinApp@@QAEXPAX0H@Z 7c4013c0 f   appprnt.obj
+ 0001:001b0430       ?CreatePrinterDC@CWinApp@@QAEHAAVCDC@@@Z 7c401430 f 

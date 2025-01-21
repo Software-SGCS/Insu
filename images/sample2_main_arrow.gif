@@ -1,0 +1,12 @@
+own@@@8       7c4342b8     arcstrm.obj
+ 0002:000002d0       ??_R0?AUISequentialStream@@@8 7c4342d0     arcstrm.obj
+ 0002:000002f0       ??_R0?AUIStream@@@8        7c4342f0     arcstrm.obj
+ 0002:00000308       ??_R0?AVCArchiveStream@@@8 7c434308     arcstrm.obj
+ 0002:00000328       ?afxTraceEnabled@@3HA      7c434328     dumpinit.obj
+ 0002:0000032c       ??_R0?AVCNoTrackObject@@@8 7c43432c     dumpinit.obj
+ 0002:0000034c       ??_R0?AV_AFX_DEBUG_STATE@@@8 7c43434c     dumpinit.obj
+ 0002:0000036c       ?pfnAllocHook@@3P6GHIHJ@ZA 7c43436c     afxmem.obj
+ 0002:00000370       ??_R0?AVCSimpleException@@@8 7c434370     afxinl1.obj
+ 0002:00000390       ??_R0?AVCMemoryException@@@8 7c434390     afxinl1.obj
+ 0002:000003b0       ??_R0?AVCNotSupportedException@@@8 7c4343b0     afxinl1.obj
+ 0002:000003d8       ??_R0?AVCInvalidArgExc

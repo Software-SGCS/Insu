@@ -1,0 +1,3870 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{9A52B38E-605E-445B-B141-3ECFBEEFA2D1}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Insu"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "Insu"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "CrystalDecisions.Shared"
+                    AssemblyName = "CrystalDecisions.Shared"
+                    HintPath = "..\..\..\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.Shared.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalDecisions.ReportSource"
+                    AssemblyName = "CrystalDecisions.ReportSource"
+                    HintPath = "..\..\..\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.ReportSource.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalDecisions.CrystalReports.Engine"
+                    AssemblyName = "CrystalDecisions.CrystalReports.Engine"
+                    HintPath = "..\..\..\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.CrystalReports.Engine.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalDecisions.Web"
+                    AssemblyName = "CrystalDecisions.Web"
+                    HintPath = "..\..\..\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.Web.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "CrystalEnterpriseLib"
+                    AssemblyName = "CrystalEnterpriseLib"
+                    HintPath = "..\..\..\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalEnterpriseLib.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalReportPluginLib"
+                    AssemblyName = "CrystalReportPluginLib"
+                    HintPath = "..\..\..\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalReportPluginLib.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalInfoStoreLib"
+                    AssemblyName = "CrystalInfoStoreLib"
+                    HintPath = "..\..\..\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalInfoStoreLib.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalDecisions.Windows.Forms"
+                    AssemblyName = "CrystalDecisions.Windows.Forms"
+                    HintPath = "..\..\..\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.Windows.Forms.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalKeyCodeLib"
+                    AssemblyName = "CrystalKeyCodeLib"
+                    HintPath = "..\..\..\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalKeyCodeLib.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalPluginMgrLib"
+                    AssemblyName = "CrystalPluginMgrLib"
+                    HintPath = "..\..\..\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalPluginMgrLib.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CRVsPackageLib"
+                    AssemblyName = "CRVsPackageLib"
+                    HintPath = "..\..\..\Program Files\Common Files\Crystal Decisions\1.1\Managed\CRVsPackageLib.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                />
+                <Reference
+                    Name = "CrystalAnalysisXmlSerializeLib"
+                    Guid = "{2CBD93D1-A7E0-4A0A-868A-0F07E333F1D7}"
+                    VersionMajor = "1"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "CrystalDataObject"
+                    Guid = "{7C5A4C06-A559-11D0-881A-00AA00BA30B7}"
+                    VersionMajor = "1"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "CRQUERYENGINE"
+                    Guid = "{B7E86051-329E-11D4-AAA2-00902741F1FC}"
+                    VersionMajor = "1"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "stdole"
+                    Guid = "{00020430-0000-0000-C000-000000000046}"
+                    VersionMajor = "2"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "primary"
+                />
+                <Reference
+                    Name = "CRAXDDRT20"
+                    Guid = "{CF1E0590-EE70-11D4-8CB2-0003471255D3}"
+                    VersionMajor = "2"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "CrystalReportsDataDefModelLib"
+                    Guid = "{5DE61E62-EE35-4F33-9F61-6C1393F212E8}"
+                    VersionMajor = "1"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "CrystalTSLVLib"
+                    Guid = "{894AD883-8B22-11D3-A65D-00902771E565}"
+                    VersionMajor = "1"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "CustomMarshalers"
+                    AssemblyName = "CustomMarshalers"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\CustomMarshalers.dll"
+                />
+                <Reference
+                    Name = "KEYCODEV2Lib"
+                    Guid = "{8D43D0B9-C14E-4577-9E67-A9A1EEF82302}"
+                    VersionMajor = "1"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.UI" />
+                <Import Namespace = "System.Web.UI.HtmlControls" />
+                <Import Namespace = "System.Web.UI.WebControls" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "ABC.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ABC.aspx.vb"
+                    DependentUpon = "ABC.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ABC.aspx.resx"
+                    DependentUpon = "ABC.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AccidentFinal.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AccidentFinal.aspx.vb"
+                    DependentUpon = "AccidentFinal.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AccidentFinal.aspx.resx"
+                    DependentUpon = "AccidentFinal.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AccidentFl.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AccidentFl.aspx.vb"
+                    DependentUpon = "AccidentFl.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AccidentFl.aspx.resx"
+                    DependentUpon = "AccidentFl.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AccidentForm1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AccidentForm1.aspx.vb"
+                    DependentUpon = "AccidentForm1.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AccidentForm1.aspx.resx"
+                    DependentUpon = "AccidentForm1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AccidentForm2.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AccidentForm2.aspx.vb"
+                    DependentUpon = "AccidentForm2.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AccidentForm2.aspx.resx"
+                    DependentUpon = "AccidentForm2.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ChequePrint.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ChequePrint.aspx.vb"
+                    DependentUpon = "ChequePrint.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ChequePrint.aspx.resx"
+                    DependentUpon = "ChequePrint.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ChequePrint1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ChequePrint1.aspx.vb"
+                    DependentUpon = "ChequePrint1.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ChequePrint1.aspx.resx"
+                    DependentUpon = "ChequePrint1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CodeMaster.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CodeMaster.aspx.vb"
+                    DependentUpon = "CodeMaster.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CodeMaster.aspx.resx"
+                    DependentUpon = "CodeMaster.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CRS.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CRS.aspx.vb"
+                    DependentUpon = "CRS.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CRS.aspx.resx"
+                    DependentUpon = "CRS.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CrsCertificate.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CrsCertificate.aspx.vb"
+                    DependentUpon = "CrsCertificate.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CrsCertificate.aspx.resx"
+                    DependentUpon = "CrsCertificate.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CrsTaxInvoice.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CrsTaxInvoice.aspx.vb"
+                    DependentUpon = "CrsTaxInvoice.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CrsTaxInvoice.aspx.resx"
+                    DependentUpon = "CrsTaxInvoice.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CryTaxInvService.asmx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CryTaxInvService.asmx.vb"
+                    DependentUpon = "CryTaxInvService.asmx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DdfDisEntry.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DdfDisEntry.aspx.vb"
+                    DependentUpon = "DdfDisEntry.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DdfDisEntry.aspx.resx"
+                    DependentUpon = "DdfDisEntry.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DDFEntry.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DDFEntry.aspx.vb"
+                    DependentUpon = "DDFEntry.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DDFEntry.aspx.resx"
+                    DependentUpon = "DDFEntry.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DDFReport1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DDFReport1.aspx.vb"
+                    DependentUpon = "DDFReport1.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DDFReport1.aspx.resx"
+                    DependentUpon = "DDFReport1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DDFReport2.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DDFReport2.aspx.vb"
+                    DependentUpon = "DDFReport2.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DDFReport2.aspx.resx"
+                    DependentUpon = "DDFReport2.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DeathDonation2.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DeathDonation2.aspx.vb"
+                    DependentUpon = "DeathDonation2.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DeathDonation2.aspx.resx"
+                    DependentUpon = "DeathDonation2.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DeathDonation21.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DeathDonation21.aspx.vb"
+                    DependentUpon = "DeathDonation21.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DeathDonation21.aspx.resx"
+                    DependentUpon = "DeathDonation21.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DeathDonation22.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DeathDonation22.aspx.vb"
+                    DependentUpon = "DeathDonation22.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DeathDonation22.aspx.resx"
+                    DependentUpon = "DeathDonation22.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DeathDonationEntry1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DeathDonationEntry1.aspx.vb"
+                    DependentUpon = "DeathDonationEntry1.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DeathDonationEntry1.aspx.resx"
+                    DependentUpon = "DeathDonationEntry1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Dispaly1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Dispaly1.aspx.vb"
+                    DependentUpon = "Dispaly1.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Dispaly1.aspx.resx"
+                    DependentUpon = "Dispaly1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Download.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Download.aspx.vb"
+                    DependentUpon = "Download.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Download.aspx.resx"
+                    DependentUpon = "Download.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Email.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Email.aspx.vb"
+                    DependentUpon = "Email.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Email.aspx.resx"
+                    DependentUpon = "Email.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Email1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Email1.aspx.vb"
+                    DependentUpon = "Email1.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Email1.aspx.resx"
+                    DependentUpon = "Email1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EmpMast.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EmpMast.aspx.vb"
+                    DependentUpon = "EmpMast.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EmpMast.aspx.resx"
+                    DependentUpon = "EmpMast.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EmpMastGroup.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EmpMastGroup.aspx.vb"
+                    DependentUpon = "EmpMastGroup.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EmpMastGroup.aspx.resx"
+                    DependentUpon = "EmpMastGroup.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Entry2.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Entry2.aspx.vb"
+                    DependentUpon = "Entry2.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Entry2.aspx.resx"
+                    DependentUpon = "Entry2.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EntryEmployeeMaster.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EntryEmployeeMaster.aspx.vb"
+                    DependentUpon = "EntryEmployeeMaster.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EntryEmployeeMaster.aspx.resx"
+                    DependentUpon = "EntryEmployeeMaster.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "EntryVehSold.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "EntryVehSold.aspx.vb"
+                    DependentUpon = "EntryVehSold.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "EntryVehSold.aspx.resx"
+                    DependentUpon = "EntryVehSold.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.vb"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Grn.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Grn.aspx.vb"
+                    DependentUpon = "Grn.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Grn.aspx.resx"
+                    DependentUpon = "Grn.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HealthReport1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HealthReport1.aspx.vb"
+                    DependentUpon = "HealthReport1.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HealthReport1.aspx.resx"
+                    DependentUpon = "HealthReport1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HealthReport2.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HealthReport2.aspx.vb"
+                    DependentUpon = "HealthReport2.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HealthReport2.aspx.resx"
+                    DependentUpon = "HealthReport2.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HealthReport3.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HealthReport3.aspx.vb"
+                    DependentUpon = "HealthReport3.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HealthReport3.aspx.resx"
+                    DependentUpon = "HealthReport3.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HealthReport3D.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HealthReport3D.aspx.vb"
+                    DependentUpon = "HealthReport3D.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HealthReport3D.aspx.resx"
+                    DependentUpon = "HealthReport3D.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HealthReport4.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HealthReport4.aspx.vb"
+                    DependentUpon = "HealthReport4.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HealthReport4.aspx.resx"
+                    DependentUpon = "HealthReport4.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HelthEntry.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HelthEntry.aspx.vb"
+                    DependentUpon = "HelthEntry.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HelthEntry.aspx.resx"
+                    DependentUpon = "HelthEntry.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HelthEntryNew.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HelthEntryNew.aspx.vb"
+                    DependentUpon = "HelthEntryNew.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HelthEntryNew.aspx.resx"
+                    DependentUpon = "HelthEntryNew.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HltMaster.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HltMaster.aspx.vb"
+                    DependentUpon = "HltMaster.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HltMaster.aspx.resx"
+                    DependentUpon = "HltMaster.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HOME.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HOME.aspx.vb"
+                    DependentUpon = "HOME.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HOME.aspx.resx"
+                    DependentUpon = "HOME.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Home1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Home1.aspx.vb"
+                    DependentUpon = "Home1.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Home1.aspx.resx"
+                    DependentUpon = "Home1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HthEmployeeMaster.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HthEmployeeMaster.aspx.vb"
+                    DependentUpon = "HthEmployeeMaster.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HthEmployeeMaster.aspx.resx"
+                    DependentUpon = "HthEmployeeMaster.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HthEmployeeMaster1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HthEmployeeMaster1.aspx.vb"
+                    DependentUpon = "HthEmployeeMaster1.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HthEmployeeMaster1.aspx.resx"
+                    DependentUpon = "HthEmployeeMaster1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HthEntry.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HthEntry.aspx.vb"
+                    DependentUpon = "HthEntry.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HthEntry.aspx.resx"
+                    DependentUpon = "HthEntry.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "InsuApprovalM.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "InsuApprovalM.aspx.vb"
+                    DependentUpon = "InsuApprovalM.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "InsuApprovalM.aspx.resx"
+                    DependentUpon = "InsuApprovalM.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "InvApproval.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "InvApproval.aspx.vb"
+                    DependentUpon = "InvApproval.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "InvApproval.aspx.resx"
+                    DependentUpon = "InvApproval.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "InvApprovalM.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "InvApprovalM.aspx.vb"
+                    DependentUpon = "InvApprovalM.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "InvApprovalM.aspx.resx"
+                    DependentUpon = "InvApprovalM.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "InvCheck.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "InvCheck.aspx.vb"
+                    DependentUpon = "InvCheck.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "InvCheck.aspx.resx"
+                    DependentUpon = "InvCheck.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "InvChecking.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "InvChecking.aspx.vb"
+                    DependentUpon = "InvChecking.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "InvChecking.aspx.resx"
+                    DependentUpon = "InvChecking.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "InvCheckM.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "InvCheckM.aspx.vb"
+                    DependentUpon = "InvCheckM.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "InvCheckM.aspx.resx"
+                    DependentUpon = "InvCheckM.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "InvoicePayment.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "InvoicePayment.aspx.vb"
+                    DependentUpon = "InvoicePayment.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "InvoicePayment.aspx.resx"
+                    DependentUpon = "InvoicePayment.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "InWord.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "InWord.aspx.vb"
+                    DependentUpon = "InWord.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "InWord.aspx.resx"
+                    DependentUpon = "InWord.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Inwordpayment.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Inwordpayment.aspx.vb"
+                    DependentUpon = "Inwordpayment.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Inwordpayment.aspx.resx"
+                    DependentUpon = "Inwordpayment.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ItemLst.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ItemLst.aspx.vb"
+                    DependentUpon = "ItemLst.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ItemLst.aspx.resx"
+                    DependentUpon = "ItemLst.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "LeaveApply.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "LeaveApply.aspx.vb"
+                    DependentUpon = "LeaveApply.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "LeaveApply.aspx.resx"
+                    DependentUpon = "LeaveApply.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "LeaveApproval.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "LeaveApproval.aspx.vb"
+                    DependentUpon = "LeaveApproval.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "LeaveApproval.aspx.resx"
+                    DependentUpon = "LeaveApproval.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Menu.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Menu.aspx.vb"
+                    DependentUpon = "Menu.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Menu.aspx.resx"
+                    DependentUpon = "Menu.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Menu1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Menu1.aspx.vb"
+                    DependentUpon = "Menu1.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Menu1.aspx.resx"
+                    DependentUpon = "Menu1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Menu2.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Menu2.aspx.vb"
+                    DependentUpon = "Menu2.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Menu2.aspx.resx"
+                    DependentUpon = "Menu2.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Newadd10.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Newadd10.aspx.vb"
+                    DependentUpon = "Newadd10.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Newadd10.aspx.resx"
+                    DependentUpon = "Newadd10.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Newadd12.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Newadd12.aspx.vb"
+                    DependentUpon = "Newadd12.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Newadd12.aspx.resx"
+                    DependentUpon = "Newadd12.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Newadd9.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Newadd9.aspx.vb"
+                    DependentUpon = "Newadd9.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Newadd9.aspx.resx"
+                    DependentUpon = "Newadd9.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Newapp9.aspx.vb"
+                    DependentUpon = "Newadd9.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Newapp9.aspx.resx"
+                    DependentUpon = "Newapp9.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Newapp1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Newapp1.aspx.vb"
+                    DependentUpon = "Newapp1.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Newapp1.aspx.resx"
+                    DependentUpon = "Newapp1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Newapp11.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Newapp11.aspx.vb"
+                    DependentUpon = "Newapp11.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Newapp11.aspx.resx"
+                    DependentUpon = "Newapp11.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NewApp2.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "NewApp2.aspx.vb"
+                    DependentUpon = "NewApp2.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewApp2.aspx.resx"
+                    DependentUpon = "NewApp2.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NewApp3.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "NewApp3.aspx.vb"
+                    DependentUpon = "NewApp3.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewApp3.aspx.resx"
+                    DependentUpon = "NewApp3.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Newapp4.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Newapp4.aspx.vb"
+                    DependentUpon = "Newapp4.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Newapp4.aspx.resx"
+                    DependentUpon = "Newapp4.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NewApp5.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "NewApp5.aspx.vb"
+                    DependentUpon = "NewApp5.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewApp5.aspx.resx"
+                    DependentUpon = "NewApp5.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NewApp6.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "NewApp6.aspx.vb"
+                    DependentUpon = "NewApp6.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewApp6.aspx.resx"
+                    DependentUpon = "NewApp6.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NewApp7.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "NewApp7.aspx.vb"
+                    DependentUpon = "NewApp7.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewApp7.aspx.resx"
+                    DependentUpon = "NewApp7.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NewApp8.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "NewApp8.aspx.vb"
+                    DependentUpon = "NewApp8.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewApp8.aspx.resx"
+                    DependentUpon = "NewApp8.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NewEntry1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "NewEntry1.aspx.vb"
+                    DependentUpon = "NewEntry1.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewEntry1.aspx.resx"
+                    DependentUpon = "NewEntry1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NewEntry2.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "NewEntry2.aspx.vb"
+                    DependentUpon = "NewEntry2.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewEntry2.aspx.resx"
+                    DependentUpon = "NewEntry2.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NewEntry2New.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "NewEntry2New.aspx.vb"
+                    DependentUpon = "NewEntry2New.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewEntry2New.aspx.resx"
+                    DependentUpon = "NewEntry2New.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NewEntry2New1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "NewEntry2New1.aspx.vb"
+                    DependentUpon = "NewEntry2New1.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewEntry2New1.aspx.resx"
+                    DependentUpon = "NewEntry2New1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NewEntry3.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "NewEntry3.aspx.vb"
+                    DependentUpon = "NewEntry3.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewEntry3.aspx.resx"
+                    DependentUpon = "NewEntry3.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Outword.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Outword.aspx.vb"
+                    DependentUpon = "Outword.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Outword.aspx.resx"
+                    DependentUpon = "Outword.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PayApprovalnew.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PayApprovalnew.aspx.vb"
+                    DependentUpon = "PayApprovalnew.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PayApprovalnew.aspx.resx"
+                    DependentUpon = "PayApprovalnew.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PayApprovalnewM.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PayApprovalnewM.aspx.vb"
+                    DependentUpon = "PayApprovalnewM.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PayApprovalnewM.aspx.resx"
+                    DependentUpon = "PayApprovalnewM.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PopTopTen.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PopTopTen.aspx.vb"
+                    DependentUpon = "PopTopTen.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PopTopTen.aspx.resx"
+                    DependentUpon = "PopTopTen.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PopView1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PopView1.aspx.vb"
+                    DependentUpon = "PopView1.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PopView1.aspx.resx"
+                    DependentUpon = "PopView1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PopView2.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PopView2.aspx.vb"
+                    DependentUpon = "PopView2.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PopView2.aspx.resx"
+                    DependentUpon = "PopView2.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PopView3.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PopView3.aspx.vb"
+                    DependentUpon = "PopView3.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PopView3.aspx.resx"
+                    DependentUpon = "PopView3.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PopView4.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PopView4.aspx.vb"
+                    DependentUpon = "PopView4.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PopView4.aspx.resx"
+                    DependentUpon = "PopView4.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Popview5.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Popview5.aspx.vb"
+                    DependentUpon = "Popview5.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Popview5.aspx.resx"
+                    DependentUpon = "Popview5.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "POSDispaly11.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "POSDispaly11.aspx.vb"
+                    DependentUpon = "POSDispaly11.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "POSDispaly11.aspx.resx"
+                    DependentUpon = "POSDispaly11.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PosInsEntry.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PosInsEntry.aspx.vb"
+                    DependentUpon = "PosInsEntry.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PosInsEntry.aspx.resx"
+                    DependentUpon = "PosInsEntry.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PosOpEntry.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PosOpEntry.aspx.vb"
+                    DependentUpon = "PosOpEntry.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PosOpEntry.aspx.resx"
+                    DependentUpon = "PosOpEntry.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PosPhEntry.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PosPhEntry.aspx.vb"
+                    DependentUpon = "PosPhEntry.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PosPhEntry.aspx.resx"
+                    DependentUpon = "PosPhEntry.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PosPhEntryNew.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "PosPhEntryNew.aspx.vb"
+                    DependentUpon = "PosPhEntryNew.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PosPhEntryNew.aspx.resx"
+                    DependentUpon = "PosPhEntryNew.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Qutation.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Qutation.aspx.vb"
+                    DependentUpon = "Qutation.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Qutation.aspx.resx"
+                    DependentUpon = "Qutation.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SgcsDonation.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SgcsDonation.aspx.vb"
+                    DependentUpon = "SgcsDonation.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SgcsDonation.aspx.resx"
+                    DependentUpon = "SgcsDonation.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SgcsInsurance.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SgcsInsurance.aspx.vb"
+                    DependentUpon = "SgcsInsurance.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SgcsInsurance.aspx.resx"
+                    DependentUpon = "SgcsInsurance.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SgcsSHE.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SgcsSHE.aspx.vb"
+                    DependentUpon = "SgcsSHE.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SgcsSHE.aspx.resx"
+                    DependentUpon = "SgcsSHE.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SgcsSHE1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SgcsSHE1.aspx.vb"
+                    DependentUpon = "SgcsSHE1.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SgcsSHE1.aspx.resx"
+                    DependentUpon = "SgcsSHE1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SgcsTrading.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SgcsTrading.aspx.vb"
+                    DependentUpon = "SgcsTrading.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SgcsTrading.aspx.resx"
+                    DependentUpon = "SgcsTrading.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SgcsVeh.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SgcsVeh.aspx.vb"
+                    DependentUpon = "SgcsVeh.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SgcsVeh.aspx.resx"
+                    DependentUpon = "SgcsVeh.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SgcsVeh1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SgcsVeh1.aspx.vb"
+                    DependentUpon = "SgcsVeh1.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SgcsVeh1.aspx.resx"
+                    DependentUpon = "SgcsVeh1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Styles.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "test1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "test1.aspx.vb"
+                    DependentUpon = "test1.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "test1.aspx.resx"
+                    DependentUpon = "test1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Upload3.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Upload3.aspx.vb"
+                    DependentUpon = "Upload3.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Upload3.aspx.resx"
+                    DependentUpon = "Upload3.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "VehReport1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "VehReport1.aspx.vb"
+                    DependentUpon = "VehReport1.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "VehReport1.aspx.resx"
+                    DependentUpon = "VehReport1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "VehReport2.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "VehReport2.aspx.vb"
+                    DependentUpon = "VehReport2.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "VehReport2.aspx.resx"
+                    DependentUpon = "VehReport2.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "VehReport3.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "VehReport3.aspx.vb"
+                    DependentUpon = "VehReport3.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "VehReport3.aspx.resx"
+                    DependentUpon = "VehReport3.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ViewReport1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ViewReport1.aspx.vb"
+                    DependentUpon = "ViewReport1.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ViewReport1.aspx.resx"
+                    DependentUpon = "ViewReport1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ViewReport2.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ViewReport2.aspx.vb"
+                    DependentUpon = "ViewReport2.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ViewReport2.aspx.resx"
+                    DependentUpon = "ViewReport2.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ViewReport3.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ViewReport3.aspx.vb"
+                    DependentUpon = "ViewReport3.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ViewReport3.aspx.resx"
+                    DependentUpon = "ViewReport3.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ViewReport4.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ViewReport4.aspx.vb"
+                    DependentUpon = "ViewReport4.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ViewReport4.aspx.resx"
+                    DependentUpon = "ViewReport4.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebForm1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebForm1.aspx.vb"
+                    DependentUpon = "WebForm1.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WebForm1.aspx.resx"
+                    DependentUpon = "WebForm1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "WebForm2.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebForm2.aspx.vb"
+                    DependentUpon = "WebForm2.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WebForm2.aspx.resx"
+                    DependentUpon = "WebForm2.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "WebForm3.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebForm3.aspx.vb"
+                    DependentUpon = "WebForm3.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WebForm3.aspx.resx"
+                    DependentUpon = "WebForm3.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "WebForm4.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebForm4.aspx.vb"
+                    DependentUpon = "WebForm4.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WebForm4.aspx.resx"
+                    DependentUpon = "WebForm4.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "cri\A.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "A.vb"
+                />
+                <File
+                    RelPath = "cri\A.vb"
+                    DependentUpon = "A.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\AA.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "AA.vb"
+                />
+                <File
+                    RelPath = "cri\AA.vb"
+                    DependentUpon = "AA.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\AAA.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "AAA.vb"
+                />
+                <File
+                    RelPath = "cri\AAA.vb"
+                    DependentUpon = "AAA.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\AAAd.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "AAAd.vb"
+                />
+                <File
+                    RelPath = "cri\AAAd.vb"
+                    DependentUpon = "AAAd.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\AAAnew.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "AAAnew.vb"
+                />
+                <File
+                    RelPath = "cri\AAAnew.vb"
+                    DependentUpon = "AAAnew.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\AllShip.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "AllShip.vb"
+                />
+                <File
+                    RelPath = "cri\AllShip.vb"
+                    DependentUpon = "AllShip.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\BBB.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "BBB.vb"
+                />
+                <File
+                    RelPath = "cri\BBB.vb"
+                    DependentUpon = "BBB.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\BBBd.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "BBBd.vb"
+                />
+                <File
+                    RelPath = "cri\BBBd.vb"
+                    DependentUpon = "BBBd.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\BBBh.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "BBBh.vb"
+                />
+                <File
+                    RelPath = "cri\BBBh.vb"
+                    DependentUpon = "BBBh.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\BBBh1.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "BBBh1.vb"
+                />
+                <File
+                    RelPath = "cri\BBBh1.vb"
+                    DependentUpon = "BBBh1.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\BBBh3.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "BBBh3.vb"
+                />
+                <File
+                    RelPath = "cri\BBBh3.vb"
+                    DependentUpon = "BBBh3.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\BBBnew.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "BBBnew.vb"
+                />
+                <File
+                    RelPath = "cri\BBBnew.vb"
+                    DependentUpon = "BBBnew.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\BBBT.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "BBBT.vb"
+                />
+                <File
+                    RelPath = "cri\BBBT.vb"
+                    DependentUpon = "BBBT.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CCC.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CCC.vb"
+                />
+                <File
+                    RelPath = "cri\CCC.vb"
+                    DependentUpon = "CCC.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CCCd.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CCCd.vb"
+                />
+                <File
+                    RelPath = "cri\CCCd.vb"
+                    DependentUpon = "CCCd.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CCCdnEW.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CCCdnEW.vb"
+                />
+                <File
+                    RelPath = "cri\CCCdnEW.vb"
+                    DependentUpon = "CCCdnEW.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CCCnew.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CCCnew.vb"
+                />
+                <File
+                    RelPath = "cri\CCCnew.vb"
+                    DependentUpon = "CCCnew.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\Certificate.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Certificate.vb"
+                />
+                <File
+                    RelPath = "cri\Certificate.vb"
+                    DependentUpon = "Certificate.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\claims.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "claims.vb"
+                />
+                <File
+                    RelPath = "cri\claims.vb"
+                    DependentUpon = "claims.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryInv.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryInv.vb"
+                />
+                <File
+                    RelPath = "cri\CryInv.vb"
+                    DependentUpon = "CryInv.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryInv1.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryInv1.vb"
+                />
+                <File
+                    RelPath = "cri\CryInv1.vb"
+                    DependentUpon = "CryInv1.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryInv1A.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryInv1A.vb"
+                />
+                <File
+                    RelPath = "cri\CryInv1A.vb"
+                    DependentUpon = "CryInv1A.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryInv1B.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryInv1B.vb"
+                />
+                <File
+                    RelPath = "cri\CryInv1B.vb"
+                    DependentUpon = "CryInv1B.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryInv1D.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryInv1D1.vb"
+                />
+                <File
+                    RelPath = "cri\CryInv1D1.vb"
+                    DependentUpon = "CryInv1D.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryInv1DA.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryInv1DA.vb"
+                />
+                <File
+                    RelPath = "cri\CryInv1DA.vb"
+                    DependentUpon = "CryInv1DA.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryInv1DB.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryInv1DB.vb"
+                />
+                <File
+                    RelPath = "cri\CryInv1DB.vb"
+                    DependentUpon = "CryInv1DB.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryInv2.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryInv2.vb"
+                />
+                <File
+                    RelPath = "cri\CryInv2.vb"
+                    DependentUpon = "CryInv2.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryInv2A.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryInv2A.vb"
+                />
+                <File
+                    RelPath = "cri\CryInv2A.vb"
+                    DependentUpon = "CryInv2A.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryInv2B.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryInv2B.vb"
+                />
+                <File
+                    RelPath = "cri\CryInv2B.vb"
+                    DependentUpon = "CryInv2B.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryInv2D.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryInv2D1.vb"
+                />
+                <File
+                    RelPath = "cri\CryInv2D1.vb"
+                    DependentUpon = "CryInv2D.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryInv2DA.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryInv2DA.vb"
+                />
+                <File
+                    RelPath = "cri\CryInv2DA.vb"
+                    DependentUpon = "CryInv2DA.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryInv2DB.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryInv2DB.vb"
+                />
+                <File
+                    RelPath = "cri\CryInv2DB.vb"
+                    DependentUpon = "CryInv2DB.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryInvA.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryInvA.vb"
+                />
+                <File
+                    RelPath = "cri\CryInvA.vb"
+                    DependentUpon = "CryInvA.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryInvB.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryInvB.vb"
+                />
+                <File
+                    RelPath = "cri\CryInvB.vb"
+                    DependentUpon = "CryInvB.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryInvD.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryInvD1.vb"
+                />
+                <File
+                    RelPath = "cri\CryInvD1.vb"
+                    DependentUpon = "CryInvD.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryInvDA.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryInvDA.vb"
+                />
+                <File
+                    RelPath = "cri\CryInvDA.vb"
+                    DependentUpon = "CryInvDA.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryInvDB.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryInvDB.vb"
+                />
+                <File
+                    RelPath = "cri\CryInvDB.vb"
+                    DependentUpon = "CryInvDB.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryItem.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryItem.vb"
+                />
+                <File
+                    RelPath = "cri\CryItem.vb"
+                    DependentUpon = "CryItem.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CrystalReport1.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CrystalReport11.vb"
+                />
+                <File
+                    RelPath = "cri\CrystalReport11.vb"
+                    DependentUpon = "CrystalReport1.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CrystalReport2.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CrystalReport2.vb"
+                />
+                <File
+                    RelPath = "cri\CrystalReport2.vb"
+                    DependentUpon = "CrystalReport2.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CrystalReport21.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CrystalReport21.vb"
+                />
+                <File
+                    RelPath = "cri\CrystalReport21.vb"
+                    DependentUpon = "CrystalReport21.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CrystalReport3.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CrystalReport3.vb"
+                />
+                <File
+                    RelPath = "cri\CrystalReport3.vb"
+                    DependentUpon = "CrystalReport3.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CrystalReport5.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CrystalReport5.vb"
+                />
+                <File
+                    RelPath = "cri\CrystalReport5.vb"
+                    DependentUpon = "CrystalReport5.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CrystalReport6.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CrystalReport6.vb"
+                />
+                <File
+                    RelPath = "cri\Copy of CrystalReport3.vb"
+                    DependentUpon = "CrystalReport6.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CrystalReport6.vb"
+                    DependentUpon = "CrystalReport6.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CrystalReport7.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CrystalReport7.vb"
+                />
+                <File
+                    RelPath = "cri\CrystalReport7.vb"
+                    DependentUpon = "CrystalReport7.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CrystalReport8.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CrystalReport8.vb"
+                />
+                <File
+                    RelPath = "cri\CrystalReport8.vb"
+                    DependentUpon = "CrystalReport8.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInv.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv.vb"
+                    DependentUpon = "CryTaxInv.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv.resx"
+                    DependentUpon = "CryTaxInv.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv1.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInv1.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv1.vb"
+                    DependentUpon = "CryTaxInv1.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv1A.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInv1A1.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv1A1.vb"
+                    DependentUpon = "CryTaxInv1A.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv1B.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInv1B.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv1B.vb"
+                    DependentUpon = "CryTaxInv1B.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv1D.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInv1D1.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv1D1.vb"
+                    DependentUpon = "CryTaxInv1D.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv1DA.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInv1DA.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv1DA.vb"
+                    DependentUpon = "CryTaxInv1DA.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv1DB.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInv1DB.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv1DB.vb"
+                    DependentUpon = "CryTaxInv1DB.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv2.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInv2.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv2.vb"
+                    DependentUpon = "CryTaxInv2.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv2A.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInv2A.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv2A.vb"
+                    DependentUpon = "CryTaxInv2A.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv2B.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInv2B.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv2B.vb"
+                    DependentUpon = "CryTaxInv2B.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv2D.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInv2D1.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv2D1.vb"
+                    DependentUpon = "CryTaxInv2D.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv2DA.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInv2DA.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv2DA.vb"
+                    DependentUpon = "CryTaxInv2DA.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv2DB.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInv2DB.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInv2DB.vb"
+                    DependentUpon = "CryTaxInv2DB.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvA.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvA1.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvA1.vb"
+                    DependentUpon = "CryTaxInvA.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvB.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvB.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvB.vb"
+                    DependentUpon = "CryTaxInvB.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvD.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvD1.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvD1.vb"
+                    DependentUpon = "CryTaxInvD.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvDA.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvDA.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvDA.vb"
+                    DependentUpon = "CryTaxInvDA.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvDB.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvDB.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvDB.vb"
+                    DependentUpon = "CryTaxInvDB.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvSpe.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvSpe.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvSpe.vb"
+                    DependentUpon = "CryTaxInvSpe.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvSpe1.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvSpe1.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvSpe1.vb"
+                    DependentUpon = "CryTaxInvSpe1.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvSpe1A.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvSpe1A.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvSpe1A.vb"
+                    DependentUpon = "CryTaxInvSpe1A.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvSpe1B.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvSpe1B.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvSpe1B.vb"
+                    DependentUpon = "CryTaxInvSpe1B.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvSpe2.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvSpe2.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvSpe2.vb"
+                    DependentUpon = "CryTaxInvSpe2.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvSpe2A.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvSpe2A.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvSpe2A.vb"
+                    DependentUpon = "CryTaxInvSpe2A.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvSpe2B.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvSpe2B.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvSpe2B.vb"
+                    DependentUpon = "CryTaxInvSpe2B.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvSpeA.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvSpeA.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvSpeA.vb"
+                    DependentUpon = "CryTaxInvSpeA.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvSpeB.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvSpeB.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvSpeB.vb"
+                    DependentUpon = "CryTaxInvSpeB.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvVat.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat.vb"
+                    DependentUpon = "CryTaxInvVat.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat1.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvVat11.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat11.vb"
+                    DependentUpon = "CryTaxInvVat1.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat1A.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvVat1A.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat1A.vb"
+                    DependentUpon = "CryTaxInvVat1A.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat1B.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvVat1B.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat1B.vb"
+                    DependentUpon = "CryTaxInvVat1B.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat1D.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvVat1D1.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat1D1.vb"
+                    DependentUpon = "CryTaxInvVat1D.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat1DA.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvVat1DA.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat1DA.vb"
+                    DependentUpon = "CryTaxInvVat1DA.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat1DB.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvVat1DB.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat1DB.vb"
+                    DependentUpon = "CryTaxInvVat1DB.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat2.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvVat2.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat2.vb"
+                    DependentUpon = "CryTaxInvVat2.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat2A.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvVat2A.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat2A.vb"
+                    DependentUpon = "CryTaxInvVat2A.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat2B.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvVat2B.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat2B.vb"
+                    DependentUpon = "CryTaxInvVat2B.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat2D.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvVat2D1.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat2D1.vb"
+                    DependentUpon = "CryTaxInvVat2D.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat2DA.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvVat2DA.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat2DA.vb"
+                    DependentUpon = "CryTaxInvVat2DA.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat2DB.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvVat2DB.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVat2DB.vb"
+                    DependentUpon = "CryTaxInvVat2DB.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVatA.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvVatA.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVatA.vb"
+                    DependentUpon = "CryTaxInvVatA.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVatB.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvVatB.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVatB.vb"
+                    DependentUpon = "CryTaxInvVatB.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVatD.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvVatD1.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVatD1.vb"
+                    DependentUpon = "CryTaxInvVatD.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVatDA.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvVatDA.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVatDA.vb"
+                    DependentUpon = "CryTaxInvVatDA.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVatDB.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "CryTaxInvVatDB.vb"
+                />
+                <File
+                    RelPath = "cri\CryTaxInvVatDB.vb"
+                    DependentUpon = "CryTaxInvVatDB.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\DDDnew.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "DDDnew.vb"
+                />
+                <File
+                    RelPath = "cri\DDDnew.vb"
+                    DependentUpon = "DDDnew.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\DDReport1.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "DDReport11.vb"
+                />
+                <File
+                    RelPath = "cri\DDReport11.vb"
+                    DependentUpon = "DDReport1.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\DDReport2.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "DDReport2.vb"
+                />
+                <File
+                    RelPath = "cri\DDReport2.vb"
+                    DependentUpon = "DDReport2.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\DeathReport1.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "DeathReport1.vb"
+                />
+                <File
+                    RelPath = "cri\DeathReport1.vb"
+                    DependentUpon = "DeathReport1.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\DeathReport2.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "DeathReport2.vb"
+                />
+                <File
+                    RelPath = "cri\DeathReport2.vb"
+                    DependentUpon = "DeathReport2.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\DeathReport3.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "DeathReport3.vb"
+                />
+                <File
+                    RelPath = "cri\DeathReport3.vb"
+                    DependentUpon = "DeathReport3.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\DsiShip.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "DsiShip.vb"
+                />
+                <File
+                    RelPath = "cri\DsiShip.vb"
+                    DependentUpon = "DsiShip.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\EmpList1.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "EmpList1.vb"
+                />
+                <File
+                    RelPath = "cri\EmpList1.vb"
+                    DependentUpon = "EmpList1.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\EmpListAAA.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "EmpListAAA.vb"
+                />
+                <File
+                    RelPath = "cri\EmpListAAA.vb"
+                    DependentUpon = "EmpListAAA.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\EmpListActive.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "EmpListActive.vb"
+                />
+                <File
+                    RelPath = "cri\EmpListActive.vb"
+                    DependentUpon = "EmpListActive.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\EmpListActive1.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "EmpListActive1.vb"
+                />
+                <File
+                    RelPath = "cri\EmpListActive1.vb"
+                    DependentUpon = "EmpListActive1.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\EmpListDDF.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "EmpListDDF.vb"
+                />
+                <File
+                    RelPath = "cri\EmpListDDF.vb"
+                    DependentUpon = "EmpListDDF.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\EmpListDDF1.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "EmpListDDF1.vb"
+                />
+                <File
+                    RelPath = "cri\EmpListDDF1.vb"
+                    DependentUpon = "EmpListDDF1.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\EmpListDeActive.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "EmpListDeActive.vb"
+                />
+                <File
+                    RelPath = "cri\EmpListDeActive.vb"
+                    DependentUpon = "EmpListDeActive.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\EmpListDeActive1.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "EmpListDeActive1.vb"
+                />
+                <File
+                    RelPath = "cri\EmpListDeActive1.vb"
+                    DependentUpon = "EmpListDeActive1.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\EmpRecValue.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "EmpRecValue.vb"
+                />
+                <File
+                    RelPath = "cri\EmpRecValue.vb"
+                    DependentUpon = "EmpRecValue.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\EmpRecValue.resx"
+                    DependentUpon = "EmpRecValue.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "cri\EmpRecValue1.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "EmpRecValue1.vb"
+                />
+                <File
+                    RelPath = "cri\EmpRecValue1.vb"
+                    DependentUpon = "EmpRecValue1.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\HltReport2.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "HltReport2.vb"
+                />
+                <File
+                    RelPath = "cri\HltReport2.vb"
+                    DependentUpon = "HltReport2.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\HltReport3.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "HltReport3.vb"
+                />
+                <File
+                    RelPath = "cri\HltReport3.vb"
+                    DependentUpon = "HltReport3.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\PendingList.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "PendingList.vb"
+                />
+                <File
+                    RelPath = "cri\PendingList.vb"
+                    DependentUpon = "PendingList.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\RecClaims.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RecClaims.vb"
+                />
+                <File
+                    RelPath = "cri\RecClaims.vb"
+                    DependentUpon = "RecClaims.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\RecClaims1.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RecClaims1.vb"
+                />
+                <File
+                    RelPath = "cri\RecClaims1.vb"
+                    DependentUpon = "RecClaims1.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\ScomShip.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "ScomShip.vb"
+                />
+                <File
+                    RelPath = "cri\ScomShip.vb"
+                    DependentUpon = "ScomShip.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\SgcsLoan.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "SgcsLoan.vb"
+                />
+                <File
+                    RelPath = "cri\SgcsLoan.vb"
+                    DependentUpon = "SgcsLoan.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\SIB1.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "SIB1.vb"
+                />
+                <File
+                    RelPath = "cri\SIB1.vb"
+                    DependentUpon = "SIB1.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\sib2.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "sib2.vb"
+                />
+                <File
+                    RelPath = "cri\sib2.vb"
+                    DependentUpon = "sib2.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\Sibnew.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Sibnew.vb"
+                />
+                <File
+                    RelPath = "cri\Sibnew.vb"
+                    DependentUpon = "Sibnew.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\SibNewrpt.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "SibNewrpt.vb"
+                />
+                <File
+                    RelPath = "cri\SibNewrpt.vb"
+                    DependentUpon = "SibNewrpt.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\Submitclaims.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Submitclaims.vb"
+                />
+                <File
+                    RelPath = "cri\Submitclaims.vb"
+                    DependentUpon = "Submitclaims.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\Submitclaims.resx"
+                    DependentUpon = "Submitclaims.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "cri\Summery1.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Summery1.vb"
+                />
+                <File
+                    RelPath = "cri\Summery1.vb"
+                    DependentUpon = "Summery1.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\Summery2.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Summery2.vb"
+                />
+                <File
+                    RelPath = "cri\Summery2.vb"
+                    DependentUpon = "Summery2.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\Summery3.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Summery3.vb"
+                />
+                <File
+                    RelPath = "cri\Summery3.vb"
+                    DependentUpon = "Summery3.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\Summery4.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Summery42.vb"
+                />
+                <File
+                    RelPath = "cri\Summery42.vb"
+                    DependentUpon = "Summery4.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\Summery5.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Summery5.vb"
+                />
+                <File
+                    RelPath = "cri\Summery5.vb"
+                    DependentUpon = "Summery5.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\Summery6.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Summery6.vb"
+                />
+                <File
+                    RelPath = "cri\Summery6.vb"
+                    DependentUpon = "Summery6.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\TaxInvA.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "TaxInvA.vb"
+                />
+                <File
+                    RelPath = "cri\TaxInvA.vb"
+                    DependentUpon = "TaxInvA.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\TEST.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "TEST.vb"
+                />
+                <File
+                    RelPath = "cri\TEST.vb"
+                    DependentUpon = "TEST.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\VehAcCReport1.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "VehAcCReport1.vb"
+                />
+                <File
+                    RelPath = "cri\VehAcCReport1.vb"
+                    DependentUpon = "VehAcCReport1.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\VehClaim1.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "VehClaim1.vb"
+                />
+                <File
+                    RelPath = "cri\VehClaim1.vb"
+                    DependentUpon = "VehClaim1.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\VehClaim2.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "VehClaim2.vb"
+                />
+                <File
+                    RelPath = "cri\VehClaim2.vb"
+                    DependentUpon = "VehClaim2.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\VehRep1.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "VehRep1.vb"
+                />
+                <File
+                    RelPath = "cri\VehRep1.vb"
+                    DependentUpon = "VehRep1.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\VehRep1.resx"
+                    DependentUpon = "VehRep1.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "cri\VehRep11.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "VehRep111.vb"
+                />
+                <File
+                    RelPath = "cri\VehRep111.vb"
+                    DependentUpon = "VehRep11.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\VehRep2.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "VehRep2.vb"
+                />
+                <File
+                    RelPath = "cri\VehRep2.vb"
+                    DependentUpon = "VehRep2.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\VehRep2.resx"
+                    DependentUpon = "VehRep2.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "cri\VehRep21.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "VehRep211.vb"
+                />
+                <File
+                    RelPath = "cri\VehRep211.vb"
+                    DependentUpon = "VehRep21.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\VehRep3.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "VehRep3.vb"
+                />
+                <File
+                    RelPath = "cri\VehRep3.vb"
+                    DependentUpon = "VehRep3.rpt"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "cri\VehRep3.resx"
+                    DependentUpon = "VehRep3.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <Folder RelPath = "Data\" />
+            </Include>
+        </Files>
+        <StartupServices>
+            <Service ID = "{CF845C55-C321-4742-B673-E6212D061ED9}" />
+        </StartupServices>
+    </VisualBasic>
+</VisualStudioProject>
+

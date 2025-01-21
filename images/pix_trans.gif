@@ -1,0 +1,11 @@
+imp__GetKerningPairsW@12 7c251000     gdi32:GDI32.dll
+ 0001:00000004       __imp__PolyPolygon@16      7c251004     gdi32:GDI32.dll
+ 0001:00000008       __imp__Polygon@12          7c251008     gdi32:GDI32.dll
+ 0001:0000000c       __imp__Pie@36              7c25100c     gdi32:GDI32.dll
+ 0001:00000010       __imp__Ellipse@20          7c251010     gdi32:GDI32.dll
+ 0001:00000014       __imp__Chord@36            7c251014     gdi32:GDI32.dll
+ 0001:00000018       __imp__Polyline@12         7c251018     gdi32:GDI32.dll
+ 0001:0000001c       __imp__Arc@36              7c25101c     gdi32:GDI32.dll
+ 0001:00000020       __imp__GetCurrentPositionEx@8 7c251020     gdi32:GDI32.dll
+ 0001:00000024       __imp__RectVisible@8       7c251024     gdi32:GDI32.dll
+ 0001:00000028       __imp__PtVisible@12       

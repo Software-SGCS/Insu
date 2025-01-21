@@ -1,0 +1,12 @@
+436210     oledlgs1.obj
+ 0002:00002230       ??_R0?AVCOlePasteSpecialDialog@@@8 7c436230     oledlgs1.obj
+ 0002:00002258       ??_R0?AVCOleBusyDialog@@@8 7c436258     oledlgs2.obj
+ 0002:00002278       ??_R0?AVCOlePropertiesDialog@@@8 7c436278     oledlgs3.obj
+ 0002:0000229c       ??_R0?AUIOleUIObjInfoW@@@8 7c43629c     oledlgs3.obj
+ 0002:000022bc       ??_R0?AVXOleUIObjInfo@COlePropertiesDialog@@@8 7c4362bc     oledlgs3.obj
+ 0002:000022f0       ??_R0?AVCOleChangeSourceDialog@@@8 7c4362f0     oledlgs3.obj
+ 0002:00002318       ??_R0?AV_AFX_OLE_STATE@@@8 7c436318     oledata.obj
+ 0002:00002338       ?classCDocItem@CDocItem@@2UCRuntimeClass@@A 7c436338     oledoc1.obj
+ 0002:00002354       ??_R0?AVCOleDocument@@@8   7c436354     oledoc1.obj
+ 0002:00002370       ??_R0?AVCOleDropSource@@@8 7c436370     oledrop1.obj
+ 0002:00002

@@ -1,0 +1,597 @@
+#cnnLeftCol {
+	PADDING-BOTTOM: 0px
+}
+TABLE.cnnPoll {
+	WIDTH: 100%
+}
+#cnnT1 {
+	BORDER-TOP: #fff 10px solid
+}
+.cnnT1 .cnnBN {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 6px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; COLOR: #fff; PADDING-TOP: 2px; BACKGROUND-COLOR: #c00
+}
+.cnnT1Hd {
+	BORDER-TOP: #ccc 1px solid; MARGIN-BOTTOM: 0px; BORDER-BOTTOM: #ccc 1px solid; BACKGROUND-COLOR: #fff; TEXT-ALIGN: center
+}
+.cnnT1Hd H2 {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 10px; MARGIN: 0px; PADDING-TOP: 10px
+}
+.cnnT1Hd H2 A {
+	FONT-SIZE: 20px; COLOR: #000; TEXT-DECORATION: none
+}
+.cnnT1Hd H2 A:visited {
+	FONT-SIZE: 20px; COLOR: #000; TEXT-DECORATION: none
+}
+.cnnT1Hd H2 A:hover {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+.cnnT1Blurb {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-SIZE: 12px; PADDING-BOTTOM: 10px; PADDING-TOP: 3px
+}
+.cnnT1Blurb P {
+	MARGIN-TOP: 0.5em; MARGIN-BOTTOM: 0.5em
+}
+A.cnnT1 {
+	FONT-WEIGHT: bold
+}
+.cnnT1ImgCaption {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 3px; PADDING-TOP: 6px
+}
+.cnnT1BG {
+	BACKGROUND-COLOR: #eaeff4
+}
+#cnnMainPageRB #cnnIntlRBT1 #cnnLeftCol {
+	BORDER-BOTTOM: #fff 10px solid
+}
+.cnnT1HdLS H2 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px
+}
+.cnnT1HdLS H2 A {
+	FONT-WEIGHT: bold; FONT-SIZE: 20px; COLOR: #000; TEXT-DECORATION: none
+}
+.cnnT1HdLS H2 A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 20px; COLOR: #000; TEXT-DECORATION: none
+}
+.cnnT1HdLS H2 A:hover {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+.cnnRBad {
+	MARGIN-BOTTOM: 20px
+}
+#cnnMainPageLS .cnnOnTvBox {
+	WIDTH: 344px
+}
+#cnnMainPageLS #cnnRightCol {
+	PADDING-BOTTOM: 0px
+}
+#cnnMainPageLS .cnnT1Blurb {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.cnnSplitLk {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 14px; PADDING-BOTTOM: 10px; WIDTH: 770px; PADDING-TOP: 0px
+}
+#cnnT2Box {
+	BORDER-TOP: #8d8d8d 2px solid
+}
+.cnnBoxTitleLk {
+	MARGIN-TOP: 1px; FLOAT: right; VERTICAL-ALIGN: middle
+}
+.cnnBoxTitleLk IMG {
+	MARGIN-LEFT: 4px
+}
+#cnnLiveBox .cnnBoxTitle IMG {
+	MARGIN: 2px 0px 0px 4px
+}
+#cnnLiveBox {
+	BORDER-TOP: #c00 2px solid; WIDTH: 344px
+}
+#cnnLeftCol #cnnLiveBox {
+	WIDTH: 280px
+}
+#cnnBelowT2LSBox IMG {
+	MARGIN: 10px 0px 0px 10px
+}
+#cnnBelowT2LSBox {
+	BORDER-TOP: #ccc 1px solid; FONT-SIZE: 12px; WIDTH: 280px
+}
+#cnnBelowT2LSBox .cnnBoxTitleR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 4px; PADDING-TOP: 7px
+}
+.cnnOnTvBox {
+	MARGIN: 0px 0px 15px
+}
+.cnnOnTvHd {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND-IMAGE: url(http://i.a.cnn.net/cnn/.element/img/1.3/main/tv.bg.right.gif); PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; PADDING-TOP: 0px; HEIGHT: 22px; max-height: 22px
+}
+.cnnOnTvHd TABLE {
+	max-width: 334px
+}
+.cnnOnTvHd TD {
+	HEIGHT: 22px
+}
+.cnnOnTvHd TD.cnnBoxTitleLk {
+	FLOAT: none; MARGIN: 0px; LINE-HEIGHT: 20px; TEXT-ALIGN: right
+}
+.cnnOnTvHd TD.cnnBoxTitleLk A {
+	COLOR: #fff
+}
+.cnnOnTv {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: 0px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #ddd 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #ddd 1px solid; BACKGROUND-COLOR: #fff
+}
+.cnnOnTv DIV.cnnShowBox {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-SIZE: 12px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px; BACKGROUND-COLOR: #eaedef
+}
+.cnnOnTv DIV.cnnShowBox DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 6px; PADDING-TOP: 0px
+}
+.cnnOnTv DIV IMG {
+	MARGIN-LEFT: 6px
+}
+#cnnLeftCol .cnnOnTvHd {
+	BACKGROUND-IMAGE: url(http://i.a.cnn.net/cnn/.element/img/1.3/main/tv.bg.left.gif)
+}
+#cnnLeftCol .cnnOnTvBox {
+	MARGIN: 10px 0px 0px
+}
+#cnnLeftCol .cnnOnTvHd TABLE {
+	max-width: 270px
+}
+#cnnLeftCol .cnnWatchHd {
+	BACKGROUND-IMAGE: url(http://i.cnn.net/cnn/.element/img/1.3/video/video.bg.left.gif)
+}
+#cnnMainPageRB #cnnVideoCell .cnnWatchHd {
+	BACKGROUND-IMAGE: url(http://i.cnn.net/cnn/.element/img/1.3/video/video.bg.left.gif)
+}
+#cnnLeftCol .cnnWatchHd TABLE {
+	WIDTH: 280px; max-width: 280px
+}
+#cnnMainPageRB #cnnVideoCell .cnnWatchHd TABLE {
+	WIDTH: 280px; max-width: 280px
+}
+#cnnLeftCol .cnnWatchBox {
+	MARGIN: 10px 0px 0px
+}
+#cnnMainPageRB #cnnVideoCell .cnnWatchBox {
+	MARGIN: 0px
+}
+#cnnLeftCol .cnnWatchHd TABLE {
+	max-width: 280px
+}
+#cnnMainPageRB #cnnVideoCell .cnnWatchHd TABLE {
+	max-width: 280px
+}
+#cnnLeftCol .myContainerDiv {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 280px; PADDING-TOP: 0px; max-width: 280px
+}
+#cnnMainPageRB #cnnVideoCell .myContainerDiv {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 280px; PADDING-TOP: 0px; max-width: 280px
+}
+#cnnLeftCol .cnnTabRow {
+	BACKGROUND: url(http://i.cnn.net/cnn/.element/img/1.3/misc/dddddd.px.gif) repeat-x 0px 0px; WIDTH: 280px; max-width: 280px
+}
+#cnnMainPageRB #cnnVideoCell .cnnTabRow {
+	BACKGROUND: url(http://i.cnn.net/cnn/.element/img/1.3/misc/dddddd.px.gif) repeat-x 0px 0px; WIDTH: 280px; max-width: 280px
+}
+#cnnBizBoxCell {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 0px
+}
+DIV#cnnBCmainBox {
+	FONT-SIZE: 11px; WIDTH: 162px
+}
+DIV#cnnBCmainBox A {
+	FONT-WEIGHT: bold
+}
+DIV#cnnBCmainBox .cnnHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; PADDING-BOTTOM: 10px
+}
+DIV#cnnBCmainBox .cnnHeader A {
+	FONT-SIZE: 12px
+}
+DIV#cnnBCmainBox .cnnHeaderSm {
+	FONT-WEIGHT: normal! important; FONT-SIZE: 10px
+}
+TABLE#cnnBCmain TR TD {
+	FONT-SIZE: 11px; PADDING-TOP: 8px; TEXT-ALIGN: right
+}
+TABLE#cnnBCmain TR TD IMG {
+	MARGIN-TOP: 2px
+}
+DIV.cnnBCcopy {
+	HEIGHT: 20px; TEXT-ALIGN: right
+}
+#cnnVideoBox {
+	FONT-SIZE: 12px; PADDING-BOTTOM: 1px
+}
+#cnnVideoBox IMG {
+	MARGIN-LEFT: 4px
+}
+.cnnVideo {
+	PADDING-TOP: 9px
+}
+.cnnVideo SPAN {
+	FLOAT: right
+}
+TD.cnnBorderBox {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 6px; PADDING-BOTTOM: 6px; VERTICAL-ALIGN: middle; BORDER-LEFT: #ddd 1px solid; PADDING-TOP: 6px; BORDER-BOTTOM: #ddd 1px solid; BACKGROUND-COLOR: #eee
+}
+.cnnBorderBoxNoBiz {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 3px; VERTICAL-ALIGN: middle; BORDER-LEFT: #ddd 1px solid; WIDTH: 140px; PADDING-TOP: 3px; BORDER-BOTTOM: #ddd 1px solid; BACKGROUND-COLOR: #eee
+}
+.cnnBizFoot {
+	WIDTH: 148px
+}
+.cnnVidFoot {
+	WIDTH: 145px
+}
+.cnnBizFoot TD {
+	FONT-SIZE: 9px
+}
+.cnnBizFoot .cnnStockField {
+	MARGIN: 0px 2px; WIDTH: 40px
+}
+.cnnVidFoot {
+	FONT-SIZE: 11px
+}
+.cnnVidFoot IMG.cnnPremR {
+	MARGIN: 2px 0px 0px 4px
+}
+.cnnPromoTable {
+	MARGIN-TOP: 10px
+}
+.cnnRadio {
+	MARGIN-TOP: 10px
+}
+.cnnRadio {
+	BORDER-RIGHT: #ddd 1px solid; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 6px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BORDER-LEFT: #ddd 1px solid; LINE-HEIGHT: 31px; BORDER-BOTTOM: #ddd 1px solid; BACKGROUND-COLOR: #fff
+}
+.cnnRadio TABLE TD {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-WEIGHT: normal! important; FONT-SIZE: 9px; VERTICAL-ALIGN: top; BORDER-LEFT: medium none; PADDING-TOP: 0px! important; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: #fff! important
+}
+#cnnBelowFold {
+	MARGIN: 0px 0px 0px 8px; BORDER-BOTTOM: #ccc 1px solid
+}
+#cnnBelowFold #cnnBulletBins {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 0px
+}
+#cnnBulletBins DIV {
+	PADDING-BOTTOM: 2px
+}
+TABLE.cnnBins {
+	MARGIN-BOTTOM: 18px
+}
+TABLE.cnnBins TD {
+	FONT-SIZE: 13px; PADDING-TOP: 13px
+}
+TABLE.cnnBins TD IMG.cnnBinHd {
+	DISPLAY: block; MARGIN-BOTTOM: 1px; BORDER-BOTTOM: #2f4571 2px solid
+}
+DIV.cnnBinNav {
+	FONT-SIZE: 10px; BACKGROUND: url(http://i.a.cnn.net/cnn/.element/img/1.3/misc/section.gray.gradient3.gif) 0px 0px; MARGIN-BOTTOM: 5px; VERTICAL-ALIGN: middle; WIDTH: 258px; COLOR: #666; PADDING-TOP: 1px; HEIGHT: 15px; max-height: 15px; max-width: 258px
+}
+DIV.cnnBinNav A:link {
+	FONT-SIZE: 10px; COLOR: #666; TEXT-DECORATION: none
+}
+DIV.cnnBinNav A:visited {
+	FONT-SIZE: 10px; COLOR: #666; TEXT-DECORATION: none
+}
+DIV.cnnBinNav A:hover {
+	COLOR: #900; TEXT-DECORATION: none
+}
+DIV.cnnBinNav IMG {
+	VERTICAL-ALIGN: middle
+}
+IMG.cnnBinGrad {
+	MARGIN-RIGHT: 4px
+}
+DIV.cnnBinNav IMG.cnnOffsite {
+	MARGIN-BOTTOM: 1px; MARGIN-LEFT: 4px; VERTICAL-ALIGN: middle
+}
+TD.cnnFBid {
+	VERTICAL-ALIGN: middle; BACKGROUND-COLOR: #e6e6e0
+}
+TD.cnnFB {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: top; COLOR: #000; PADDING-TOP: 0px; BACKGROUND-COLOR: #e6e6e0
+}
+TD.cnnFB DIV.cnnBoxTitle {
+	PADDING-BOTTOM: 6px
+}
+TD.cnnFB IMG {
+	MARGIN-LEFT: 6px
+}
+TD.cnnFB SPAN.cnnFBTz IMG {
+	MARGIN-TOP: 2px
+}
+TD.cnnFB A {
+	FONT-WEIGHT: bold; COLOR: #009
+}
+TD.cnnFB A:hover {
+	COLOR: #009; TEXT-DECORATION: none
+}
+TD.cnnFBidGENERIC {
+	BACKGROUND-COLOR: #d6d6d1
+}
+TD.cnnFBidAUTOS {
+	BACKGROUND-COLOR: #0b7391
+}
+DIV.cnnFbAUTOS A {
+	COLOR: #074456! important
+}
+DIV.cnnFbAUTOS A:hover {
+	COLOR: #074456! important
+}
+TD.cnnFBidBUSINESS {
+	BACKGROUND-COLOR: #9ca38d
+}
+DIV.cnnFbBUSINESS A {
+	COLOR: #5c6053! important
+}
+DIV.cnnFbBUSINESS A:hover {
+	COLOR: #5c6053! important
+}
+TD.cnnFBidEDUCATION {
+	BACKGROUND-COLOR: #f9990a
+}
+DIV.cnnFbEDUCATION A {
+	COLOR: #630! important
+}
+DIV.cnnFbEDUCATION A:hover {
+	COLOR: #630! important
+}
+TD.cnnFBidHEALTH {
+	BACKGROUND-COLOR: #8abfaa
+}
+DIV.cnnFbHEALTH A {
+	COLOR: #5c7f71! important
+}
+DIV.cnnFbHEALTH A:hover {
+	COLOR: #5c7f71! important
+}
+TD.cnnFBidLAW {
+	BACKGROUND-COLOR: #8f8770
+}
+DIV.cnnFbLAW A {
+	COLOR: #630! important
+}
+DIV.cnnFbLAW A:hover {
+	COLOR: #630! important
+}
+TD.cnnFBidoffbeat {
+	BACKGROUND-COLOR: #598152
+}
+DIV.cnnFboffbeat A {
+	COLOR: #363! important
+}
+DIV.cnnFboffbeat A:hover {
+	COLOR: #363! important
+}
+TD.cnnFBidONCNNTV {
+	BACKGROUND-COLOR: #6f80b7
+}
+DIV.cnnFbONCNNTV A {
+	COLOR: #414b6c! important
+}
+DIV.cnnFbONCNNTV A:hover {
+	COLOR: #414b6c! important
+}
+TD.cnnFBidPOLITICS {
+	BACKGROUND-COLOR: #d5581f
+}
+DIV.cnnFbPOLITICS A {
+	COLOR: #7d3412! important
+}
+DIV.cnnFbPOLITICS A:hover {
+	COLOR: #7d3412! important
+}
+TD.cnnFBidSHOWBIZ {
+	BACKGROUND-COLOR: #a2548f
+}
+DIV.cnnFbSHOWBIZ A {
+	COLOR: #6f1659! important
+}
+DIV.cnnFbSHOWBIZ A:hover {
+	COLOR: #6f1659! important
+}
+TD.cnnFBidSPECIALS {
+	BACKGROUND-COLOR: #f36e63
+}
+DIV.cnnFbSPECIALS A {
+	COLOR: #b32e23! important
+}
+DIV.cnnFbSPECIALS A:hover {
+	COLOR: #b32e23! important
+}
+TD.cnnFBidSPORTS {
+	BACKGROUND-COLOR: #eab41a
+}
+DIV.cnnFbSPORTS A {
+	COLOR: #630! important
+}
+DIV.cnnFbSPORTS A:hover {
+	COLOR: #630! important
+}
+TD.cnnFBidTECH {
+	BACKGROUND-COLOR: #7bad07
+}
+DIV.cnnFbTECH A {
+	COLOR: #496604! important
+}
+DIV.cnnFbTECH A:hover {
+	COLOR: #496604! important
+}
+TD.cnnFBidTECHspace {
+	BACKGROUND-COLOR: #77625d
+}
+DIV.cnnFbTECHspace A {
+	COLOR: #3e2621! important
+}
+DIV.cnnFbTECHspace A:hover {
+	COLOR: #3e2621! important
+}
+TD.cnnFBidTRAVEL {
+	BACKGROUND-COLOR: #c1a358
+}
+DIV.cnnFbTRAVEL A {
+	COLOR: #630! important
+}
+DIV.cnnFbTRAVEL A:hover {
+	COLOR: #630! important
+}
+TD.cnnFBidUS {
+	VERTICAL-ALIGN: middle; BACKGROUND-COLOR: #2faac5
+}
+DIV.cnnFbUS A {
+	COLOR: #069! important
+}
+DIV.cnnFbUS A:hover {
+	COLOR: #069! important
+}
+TD.cnnFBidvideo {
+	BACKGROUND-COLOR: #1fd558
+}
+DIV.cnnFbvideo A {
+	COLOR: #106b2c! important
+}
+DIV.cnnFbvideo A:hover {
+	COLOR: #106b2c! important
+}
+TD.cnnFBidWEATHER {
+	BACKGROUND-COLOR: #86afc2
+}
+DIV.cnnFbWEATHER A {
+	COLOR: #1a6671! important
+}
+DIV.cnnFbWEATHER A:hover {
+	COLOR: #1a6671! important
+}
+TD.cnnFBidWORLD {
+	VERTICAL-ALIGN: middle; BACKGROUND-COLOR: #78948d
+}
+DIV.cnnFbWORLD A {
+	COLOR: #366! important
+}
+DIV.cnnFbWORLD A:hover {
+	COLOR: #366! important
+}
+.cnnTravelot TABLE {
+	WIDTH: 518px; max-width: 518px
+}
+.cnnTravelot {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: 0px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #999 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #999 1px solid
+}
+#cnnTravelot {
+	MARGIN: 0px; BACKGROUND-COLOR: #bde5ff
+}
+#cnnTravelot TD {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px
+}
+#cnnTravelot TD.cnnTravelotContent {
+	PADDING-LEFT: 4px; VERTICAL-ALIGN: middle
+}
+#cnnTravelot TD.cnnTravelotContentGray {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: middle; PADDING-TOP: 4px; BACKGROUND-COLOR: #dcdcda
+}
+#cnnTravelot TD.cnnTravelotFooter {
+	BORDER-BOTTOM: #999 1px solid
+}
+TABLE.cnnBorderedBox TD {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: medium none; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}
+TABLE.cnnBorderedBox TD.cnnWeather {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 8px; PADDING-TOP: 5px; BACKGROUND-COLOR: #eaeff4
+}
+TABLE.cnnBorderedBox TD.cnnQV {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 6px; PADDING-TOP: 8px; BACKGROUND-COLOR: #eee
+}
+TD.cnnQV IMG {
+	DISPLAY: block
+}
+TABLE.cnnBorderedBox TD TABLE TD {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+.cnnWeatherDiv {
+	BORDER-TOP: #d0dbe8 1px solid; MARGIN: 4px 0px; BORDER-BOTTOM: #fff 1px solid
+}
+#cnnPartners {
+	FONT-SIZE: 12px; MARGIN: 0px 0px 0px 8px; WIDTH: 762px; max-width: 762px
+}
+#cnnPartners DIV.cnnBoxTitleR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MARGIN-BOTTOM: 6px; PADDING-BOTTOM: 5px; VERTICAL-ALIGN: middle; PADDING-TOP: 5px; BORDER-BOTTOM: #ccc 1px solid
+}
+IMG.cnnPartHead {
+	DISPLAY: block; MARGIN-BOTTOM: 6px
+}
+DIV.cnnPartFoot {
+	MARGIN-TOP: 9px
+}
+DIV.cnnPartFoot A {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-BOTTOM: 2px; LINE-HEIGHT: 16px; PADDING-TOP: 0px; BACKGROUND-COLOR: #ddd
+}
+.cnnPartner1 {
+	WIDTH: 258px; MARGIN-RIGHT: 10px
+}
+.cnnPartner2 {
+	FLOAT: right; WIDTH: 258px; MARGIN-RIGHT: 10px
+}
+.cnnPartner3 {
+	FLOAT: right; WIDTH: 226px
+}
+.cnnTraveller {
+	WIDTH: 226px; HEIGHT: 102px; BACKGROUND-COLOR: #eeeee6
+}
+.cnnTravellerContent {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.cnnTravellerContent IMG {
+	DISPLAY: block; MARGIN-BOTTOM: 9px
+}
+.cnnTravellerLK {
+	WIDTH: 165px; PADDING-TOP: 13px
+}
+.cnnTravellerLKContent {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 16px; BACKGROUND-COLOR: #ffffff
+}
+#cnnIntlBizBox {
+	BORDER-TOP: #c00 2px solid; WIDTH: 344px
+}
+#cnnFootBox {
+	MARGIN-TOP: 10px
+}
+#cnnLSSpecialCov {
+	FONT: 12px arial, sans-serif
+}
+#cnnLeftCol {
+	FONT: 12px arial, sans-serif
+}
+#cnnLSSpecialCov .cnnLSSpecialCovBoxHeader {
+	BACKGROUND: url(http://i.a.cnn.net/cnn/.element/img/1.3/main/sc/bnr.hurr.season.gif) #036 no-repeat 0px 0px; HEIGHT: 22px
+}
+#cnnRightCol #cnnLSSpecialCov .cnnLSSpecialCovBoxHeader {
+	BACKGROUND: url(http://i.cnn.net/cnn/.element/img/1.3/main/sc/bnr.hurr.season.wide.gif) #036 no-repeat 0px 0px; HEIGHT: 22px
+}
+#cnnLSSpecialCov .cnnLSSpecialCovBoxHeader B {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; FONT: bold 14px/22px arial, sans-serif; COLOR: #fff; PADDING-TOP: 0px
+}
+#cnnLSSpecialCov .cnnLSSpecialCovBoxHeader A {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+#cnnLSSpecialCov .cnnLSSpecialCovBoxHeader A:hover {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+#cnnLSSpecialCov .cnnLSSpecialCovBoxHeader A:visited {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.cnnLSSpecialCovBoxContent {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: 0px; PADDING-LEFT: 6px; BACKGROUND: #fff; PADDING-BOTTOM: 3px; BORDER-LEFT: #ddd 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #ddd 1px solid
+}
+#cnnLSSpecialCov DIV.cnnRedB {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; PADDING-TOP: 0px
+}
+.cnnSpecialCoverageRB .cnnPromoTable {
+	MARGIN-TOP: 0px
+}
+.cnnSpecialCoverageRB .cnnRadio {
+	MARGIN-TOP: 0px
+}
+#cnnMainPageLS .cnnRBad {
+	MARGIN-BOTTOM: 10px
+}

@@ -1,0 +1,16 @@
+@Z 7c362740 f   dllinit.obj
+ 0001:00111900       ?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z 7c362900 f   dllinit.obj
+ 0001:00111a80       ?AfxLoadString@@YGHIPA_WI@Z 7c362a80 f   dllinit.obj
+ 0001:00111b80       ?AfxLoadString@@YGHIPADI@Z 7c362b80 f   dllinit.obj
+ 0001:00111c60       ??0CMemFile@@QAE@I@Z       7c362c60 f   filemem.obj
+ 0001:00111d00       ??0CMemFile@@QAE@PAEII@Z   7c362d00 f   filemem.obj
+ 0001:00111dc0       ?Attach@CMemFile@@QAEXPAEII@Z 7c362dc0 f   filemem.obj
+ 0001:00111e40       ?Detach@CMemFile@@QAEPAEXZ 7c362e40 f   filemem.obj
+ 0001:00111e90       ??1CMemFile@@UAE@XZ        7c362e90 f   filemem.obj
+ 0001:00111f30       ?Alloc@CMemFile@@MAEPAEK@Z 7c362f30 f   filemem.obj
+ 0001:00111f50       ?Realloc@CMemFile@@MAEPAEPAEK@Z 7c362f50 f   filemem.obj
+ 0001:00111f90       ?Memcpy@CMemFile@@MAEPAEPAEPBEK@Z 7c362f90 f   filemem.obj
+ 0001:00112030       ?Free@CMemFile@@MAEXPAE@Z  7c363030 f   filemem.obj
+ 0001:00112070       ?GetPosition@CMemFile@@UBE_KXZ 7c363070 f   filemem.obj
+ 0001:001120a0       ?GrowFile@CMemFile@@MAEXK@Z 7c3630a0 f   filemem.obj
+ 0001:00112190       ?GetLength@CMemFile@@UBE_KXZ 7c363190 f   

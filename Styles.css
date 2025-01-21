@@ -1,0 +1,334 @@
+/* CSS Document */
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url("images/watermark.jpg"/*tpa=http://www.entheosweb.com/images/watermark.jpg*/);
+	background-repeat: no-repeat;
+	background-position: center 200px;
+}
+.watermark{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	line-height: 16px;
+	text-decoration: none;
+	background-image: url("images/watermark.jpg"/*tpa=http://www.entheosweb.com/images/watermark.jpg*/);
+	background-repeat: no-repeat;
+	background-position: center 20px;
+}
+	
+.red {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #990000;
+	font-weight: bold;
+	line-height: 16px;
+}
+.red_normal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #990000;
+	line-height: 16px;
+}
+.text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	line-height: 16px;
+	text-decoration: none;
+}
+.subtitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #1D658B;
+	font-weight: bold;
+	line-height: 16px;
+}
+.white {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #ffffff;
+	line-height: 16px;
+	text-decoration: none;
+}
+.white_g {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #ffffff;
+	line-height: 16px;
+	text-decoration: none;
+}
+.white_g:hover {
+	text-decoration: none;
+}
+.blue {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #006AA4;
+	line-height: 16px;
+	text-decoration: none;
+}
+.orange {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #B3761C;
+	line-height: 16px;
+	text-decoration: none;
+}
+.gray {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #515151;
+	line-height: 16px;
+	text-decoration: none;
+}
+.gray:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+.title {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	font-weight: bold;
+}
+a{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #006AA4;
+}
+a:hover {
+	text-decoration: none;
+}
+
+.bullet {
+	list-style-image: url("images/bullet.jpg"/*tpa=http://www.entheosweb.com/images/bullet.jpg*/);
+}
+.footer {
+	font-family: Verdana;
+	font-size: 10px;
+	color: #49749E;
+	text-decoration: none;
+}
+.input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #016CA4;
+	background-color: #FFFFFF;
+	border: 1px solid #DDEDC9;
+	padding: 1px;
+}
+.menubg {
+	background-image:  url("images/services/menufill1.jpg"/*tpa=http://www.entheosweb.com/images/services/menufill1.jpg*/);
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+}
+.menubg2 {
+	background-image:  url("images/services/menufill2.jpg"/*tpa=http://www.entheosweb.com/images/services/menufill2.jpg*/);
+	background-repeat: no-repeat;
+	background-position: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #006AA4;
+	text-decoration: none;
+	background-color: #AECFE1;
+}
+.menubg_tut {
+	background-image:   url("images/tutorials/menufill.gif"/*tpa=http://www.entheosweb.com/images/tutorials/menufill.gif*/);
+	background-repeat: no-repeat;
+	background-position: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #464646;
+	text-decoration: none;
+	background-color: #e8b466;
+}
+.menubg_ind {
+	background-image:   url("images/index/menubg.gif"/*tpa=http://www.entheosweb.com/images/index/menubg.gif*/);
+	background-repeat: no-repeat;
+	background-position: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #464646;
+	text-decoration: none;
+	background-color: #e8b466;
+}
+.blue10 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #016CA4;
+}
+.side_gfill {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #79AC38;
+	background-image:  url("images/tutorials/iconfill_g.gif"/*tpa=http://www.entheosweb.com/images/tutorials/iconfill_g.gif*/);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+.side_bfill {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #006AA4;
+	text-decoration: none;
+	background-color: #ABCADB;
+	background-image:  url("images/tutorials/iconfill_b.gif"/*tpa=http://www.entheosweb.com/images/tutorials/iconfill_b.gif*/);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+.side_ofill {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #B3761C;
+	text-decoration: none;
+	background-color: #E8B466;
+	background-image:  url("images/tutorials/iconfill_o.gif"/*tpa=http://www.entheosweb.com/images/tutorials/iconfill_o.gif*/);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+.blue:hover {
+	text-decoration: none;
+}
+h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333333;
+	text-decoration: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #98C166;
+	padding-bottom: 4px;
+}
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #549700;
+	font-weight: bold;
+	text-decoration: none;
+}
+.bgblue_lt {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	background-color: #E9F1F5;
+}
+.bgblue_dark {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	background-color: #D3E3EB;
+}
+h4 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #549700;
+}
+h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #D98200;
+	font-weight: bold;
+}
+.tablelt {  background-color: #E4EEF3}
+.tabledk {  background-color: #006AA4}
+.textblack {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; font-weight: bold}
+.gray_bg1 {  background-color: #798999}
+.gray_bg2 {  background-color: #EDEFF1; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #000000}
+.textbluedk { color: #003366; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px }
+.bullet2 {
+	list-style-image: url("images/bullet.gif"/*tpa=http://www.entheosweb.com/images/bullet.gif*/);
+}
+.border {
+	border: 1px solid #006AA4;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	line-height: 16px;
+	text-decoration: none;
+}
+.border2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	line-height: 16px;
+	text-decoration: none;
+	border: 1px solid #cccccc;
+}
+.border3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	line-height: 16px;
+	text-decoration: none;
+	border: 1px solid #66A6C9;
+}
+.border4 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	line-height: 16px;
+	text-decoration: none;
+	border: 1px solid #98C067;
+}
+.subtitleblue { color: #0052A4; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold}
+.subtitlegreen { color: #549700; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold}
+.greenbold { color: #549700; font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold}
+.bluebold { color: #006AA4; font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold}
+.orangebold { color: #C1801E; font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold}
+.whitebold {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #FFFFFF}
+.headingbold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333333;
+	font-weight: bold;
+	line-height: 20px;
+}
+.bluedash {
+	border: 1px dashed #006AA4;
+}
+.greendash {
+	border: 1px dashed #549700;
+}
+.orangedash {
+	border: 1px dashed #DF992F;
+}
+.redbig {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #990000;
+	font-weight: bold;
+	background-color: #FBF1E4;
+	padding: 7px;
+	border: 1px dotted #DF992F;
+}
+.rightpadding {
+	margin-right: 10px;
+
+}
+.leftpadding {
+	margin-left: 10px;
+
+}
+.price {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: underline;
+}
+.details {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: underline;
+}

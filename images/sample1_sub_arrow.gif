@@ -1,0 +1,12 @@
+timeClass@@SGPAU1@AAVCArchive@@PAI@Z 7c351ae0 f   arccore.obj
+ 0001:00100ba0       ?Store@CRuntimeClass@@QBEXAAVCArchive@@@Z 7c351ba0 f   arccore.obj
+ 0001:00100bf0       ??0CArchive@@QAE@PAVCFile@@IHPAX@Z 7c351bf0 f   arccore.obj
+ 0001:00100e90       ??1CArchive@@QAE@XZ        7c351e90 f   arccore.obj
+ 0001:00100f00       ?Abort@CArchive@@QAEXXZ    7c351f00 f   arccore.obj
+ 0001:00101090       ?Close@CArchive@@QAEXXZ    7c352090 f   arccore.obj
+ 0001:001010d0       ?Read@CArchive@@QAEIPAXI@Z 7c3520d0 f   arccore.obj
+ 0001:00101520       ?Write@CArchive@@QAEXPBXI@Z 7c352520 f   arccore.obj
+ 0001:00101840       ?Flush@CArchive@@QAEXXZ    7c352840 f   arccore.obj
+ 0001:00101a80       ?FillBuffer@CArchive@@QAEXI@Z 7c352a80 f   arccore.obj
+ 0001:00101de0       ?WriteCount@CArchive@@QAEXK@Z 7c352de0 f   arccore.obj
+ 0001:00101e

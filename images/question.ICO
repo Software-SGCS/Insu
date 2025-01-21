@@ -1,0 +1,14 @@
+DVAPI32.dll
+ 0001:000c5d7e       __imp_load__CoGetClassObject@20 7c316d7e     ole32:ole32.dll
+ 0001:000c5d88       __tailMerge_ole32          7c316d88     ole32:ole32.dll
+ 0001:000c5d99       __imp_load__CoInitialize@4 7c316d99     ole32:ole32.dll
+ 0001:000c5da3       __imp_load__CoUninitialize@0 7c316da3     ole32:ole32.dll
+ 0001:000c5dad       __imp_load__OleInitialize@4 7c316dad     ole32:ole32.dll
+ 0001:000c5db7       __imp_load__OleUninitialize@0 7c316db7     ole32:ole32.dll
+ 0001:000c5dc1       __imp_load__CoFreeUnusedLibraries@0 7c316dc1     ole32:ole32.dll
+ 0001:000c5dcb       __imp_load__OleLockRunning@12 7c316dcb     ole32:ole32.dll
+ 0001:000c5dd5       __imp_load__CoTaskMemFree@4 7c316dd5     ole32:ole32.dll
+ 0001:000c5ddf       __imp_load__StringFromCLSID@8 7c316ddf     ole32:ole32.dll
+ 0001:000c5de9       __imp_load__OleSetContainedObject@8 7c316de9     ole32:ole32.dll
+ 0001:000c5df3       __imp_load__OleCreateFromData@28 7c316df3     ole32:ole32.dll
+ 0001:000c5dfd       __imp_load__OleCreateLinkFromData@28 7c316dfd     ole32:ole32.dll

@@ -1,0 +1,16 @@
+@@QBEHHPA_W@Z 7c328c40 f   winctrl4.obj
+ 0001:000d7c90       ?LineIndex@CRichEditCtrl@@QBEHH@Z 7c328c90 f   winctrl4.obj
+ 0001:000d7ce0       ?LineLength@CRichEditCtrl@@QBEHH@Z 7c328ce0 f   winctrl4.obj
+ 0001:000d7d30       ?LineScroll@CRichEditCtrl@@QAEXHH@Z 7c328d30 f   winctrl4.obj
+ 0001:000d7d80       ?SetSel@CRichEditCtrl@@QAEXJJ@Z 7c328d80 f   winctrl4.obj
+ 0001:000d7de0       ?CanPaste@CRichEditCtrl@@QBEHI@Z 7c328de0 f   winctrl4.obj
+ 0001:000d7e60       ?PasteSpecial@CRichEditCtrl@@QAEXIKPAUHMETAFILE__@@@Z 7c328e60 f   winctrl4.obj
+ 0001:000d7ec0       ?GetLine@CRichEditCtrl@@QBEHHPA_WH@Z 7c328ec0 f   winctrl4.obj
+ 0001:000d7f20       ?GetSel@CRichEditCtrl@@QBEXAAJ0@Z 7c328f20 f   winctrl4.obj
+ 0001:000d7f80       ?GetSelText@CRichEditCtrl@@QBE?AV?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@XZ 7c328f80 f   winctrl4.obj
+ 0001:000d8040       ?GetIRichEditOle@CRichEditCtrl@@QBEPAUIRichEditOle@@XZ 7c329040 f   winctrl4.obj
+ 0001:000d80a0       ?GetTextLengthEx@CRichEditCtrl@@QBEJKI@Z 7c3290a0 f   winctrl4.obj
+ 0001:000d8110       ?GetTextRange@CRichEditCtrl@@QBEHHHAAV?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@@Z 7c329110 f   winctrl4.obj
+ 0001:000d81b0       ?SetDefaultCharFormat@CRichEditCtrl@@QAEHAAU_charformatw@@@Z 7c3291b0 f   winctrl4.obj
+ 0001:000d8210       ?SetDefaultCharFormat@CRichEditCtrl@@QAEHAAUCHARFORMAT2W@@@Z 7c329210 f   winctrl4.obj
+ 0001:000d8270       ?SetSelectionCharFormat@CRichEditCtrl@@QAEHAAU_charformatw@@@Z 7c329270 f   winctrl4.o

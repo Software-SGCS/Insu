@@ -1,0 +1,45 @@
+hisMessageMap@CToolBar@@KGPBUAFX_MSGMAP@@XZ 7c1734c0 f   bartool.obj
+ 0001:000324c8       ?messageMap@CToolBar@@1UAFX_MSGMAP@@B 7c1734c8     bartool.obj
+ 0001:000324d0       ?_messageEntries@CToolBar@@0QBUAFX_MSGMAP_ENTRY@@B 7c1734d0     bartool.obj
+ 0001:00032608       ?GetMessageMap@CDockBar@@MBEPBUAFX_MSGMAP@@XZ 7c173608 f   bardock.obj
+ 0001:00032608       ?GetThisMessageMap@CDockBar@@KGPBUAFX_MSGMAP@@XZ 7c173608 f   bardock.obj
+ 0001:00032610       ?messageMap@CDockBar@@1UAFX_MSGMAP@@B 7c173610     bardock.obj
+ 0001:00032618       ?_messageEntries@CDockBar@@0QBUAFX_MSGMAP_ENTRY@@B 7c173618     bardock.obj
+ 0001:000326a8       ?GetMessageMap@CDialogBar@@MBEPBUAFX_MSGMAP@@XZ 7c1736a8 f   bardlg.obj
+ 0001:000326a8       ?GetThisMessageMap@CDialogBar@@KGPBUAFX_MSGMAP@@XZ 7c1736a8 f   bardlg.obj
+ 0001:000326b0       ?messageMap@CDialogBar@@1UAFX_MSGMAP@@B 7c1736b0     bardlg.obj
+ 0001:000326b8       ?HandleInitDialog@CDialogBar@@IAEJIJ@Z 7c1736b8 f   bardlg.obj
+ 0001:000326dc       ?_messageEntries@CDialogBar@@0QBUAFX_MSGMAP_ENTRY@@B 7c1736dc     bardlg.obj
+ 0001:0003270c       ?GetMessageMap@CReBar@@MBEPBUAFX_MSGMAP@@XZ 7c17370c f   barcool.obj
+ 0001:0003270c       ?GetThisMessageMap@CReBar@@KGPBUAFX_MSGMAP@@XZ 7c17370c f   barcool.obj
+ 0001:00032714       ?messageMap@CReBar@@1UAFX_MSGMAP@@B 7c173714     barcool.obj
+ 0001:00032720       ?_messageEntries@CReBar@@0QBUAFX_MSGMAP_ENTRY@@B 7c173720     barcool.obj
+ 0001:00032810       ?GetMessageMap@COleResizeBar@@MBEPBUAFX_MSGMAP@@XZ 7c173810 f   olebar.obj
+ 0001:00032810       ?GetThisMessageMap@COleResizeBar@@KGPBUAFX_MSGMAP@@XZ 7c173810 f   olebar.obj
+ 0001:00032818       ?messageMap@COleResizeBar@@1UAFX_MSGMAP@@B 7c173818     olebar.obj
+ 0001:00032820       ?_messageEntries@COleResizeBar@@0QBUAFX_MSGMAP_ENTRY@@B 7c173820     olebar.obj
+ 0001:000328c8       ?SetPaneText@CStatusBar@@QAEHHPBDH@Z 7c1738c8 f   barstat.obj
+ 0001:00032957       ?RemoveAll@CMapPtrToPtr@@QAEXXZ 7c173957 f   map_wp.obj
+ 0001:00032957       ?RemoveAll@CMapPtrToWord@@QAEXXZ 7c173957 f   map_wp.obj
+ 0001:00032957       ?RemoveAll@CMapWordToOb@@QAEXXZ 7c173957 f   map_wp.obj
+ 0001:00032957       ?RemoveAll@CMapWordToPtr@@QAEXXZ 7c173957 f   map_wp.obj
+ 0001:00032984       ??0COleLinkingDoc@@QAE@XZ  7c173984 f   olelink.obj
+ 0001:000329e0       ??_7XPersistFile@COleLinkingDoc@@6B@ 7c1739e0     olelink.obj
+ 0001:00032a08       ??_7XOleItemContainer@COleLinkingDoc@@6B@ 7c173a08     olelink.obj
+ 0001:00032a2c       ??_R4XPersistFile@COleLinkingDoc@@6B@ 7c173a2c     olelink.obj
+ 0001:00032a40       ??_R3XPersistFile@COleLinkingDoc@@8 7c173a40     olelink.obj
+ 0001:00032a6e       ?_AfxActivationWndProc@@YGJPAUHWND__@@IIJ@Z 7c173a6e f   wincore.obj
+ 0001:00032af8       ?_afxOldWndProc@@3QBDB     7c173af8     wincore.obj
+ 0001:00032b10       ?PostNcDestroy@CWnd@@MAEXXZ 7c173b10 f   dlgcore.obj
+ 0001:00032b10       ?PreInitDialog@CDialog@@MAEXXZ 7c173b10 f   dlgcore.obj
+ 0001:00032b10       ?PreSubclassWindow@CWnd@@UAEXXZ 7c173b10 f   dlgcore.obj
+ 0001:00032b11       ?GetSuperWndProcAddr@CWnd@@MAEPAP6GJPAUHWND__@@IIJ@ZXZ 7c173b11 f   wincore.obj
+ 0001:00032b15       ?FreeAssoc@CMapPtrToPtr@@IAEXPAUCAssoc@1@@Z 7c173b15 f   map_pp.obj
+ 0001:00032b15       ?FreeAssoc@CMapPtrToWord@@IAEXPAUCAssoc@1@@Z 7c173b15 f   map_pp.obj
+ 0001:00032b15       ?FreeAssoc@CMapWordToOb@@IAEXPAUCAssoc@1@@Z 7c173b15 f   map_pp.obj
+ 0001:00032b15       ?FreeAssoc@CMapWordToPtr@@IAEXPAUCAssoc@1@@Z 7c173b15 f   map_pp.obj
+ 0001:00032b29       ?RemoveKey@CMapPtrToPtr@@QAEHPAX@Z 7c173b29 f   map_pp.obj
+ 0001:00032b29       ?RemoveKey@CMapPtrToWord@@QAEHPAX@Z 7c173b29 f   map_pp.obj
+ 0001:00032b68       ?OnChildNotify@CWnd@@MAEHIIJPAJ@Z 7c173b68 f   wincore.obj
+ 0001:00032b78       ?ReflectChildNotify@CWnd@@IAEHIIJPAJ@Z 7c173b78 f   wincore.obj
+ 0001:00032bdb      

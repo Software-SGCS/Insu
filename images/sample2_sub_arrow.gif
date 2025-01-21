@@ -1,0 +1,12 @@
+R0?AVCDHtmlSinkHandler@@@8 7c435530     dlgdhtml.obj
+ 0002:00001550       ??_R0?AVCDHtmlEventSink@@@8 7c435550     dlgdhtml.obj
+ 0002:00001570       ??_R0?AVCDHtmlDialog@@@8   7c435570     dlgdhtml.obj
+ 0002:000015b4       ??_R0?AVCMultiPageDHtmlDialog@@@8 7c4355b4     dlgdhtml.obj
+ 0002:000015d8       ??_R0?AVCClientDC@@@8      7c4355d8     wingdi.obj
+ 0002:000015f0       ??_R0?AVCWindowDC@@@8      7c4355f0     wingdi.obj
+ 0002:00001608       ??_R0?AVCPaintDC@@@8       7c435608     wingdi.obj
+ 0002:00001620       ??_R0PAVCResourceException@@@8 7c435620     wingdi.obj
+ 0002:00001644       ??_R0?AVCChevronOwnerDrawMenu@@@8 7c435644     winmenu.obj
+ 0002:00001668       ?_dispatchEntryCount@CCmdTarget@@0IA 7c435668     cmdtarg.obj
+ 0002:0000166c       ?_dwStockPropMask@CCmdTarget@@0KA 7c43566c     cmdtarg.obj
+ 0002:00

@@ -1,0 +1,41 @@
+w@@KGPBUAFX_MSGMAP@@XZ 7c171f06 f   viewcore.obj
+ 0001:00030f0c       ?messageMap@CCtrlView@@1UAFX_MSGMAP@@B 7c171f0c     viewcore.obj
+ 0001:00030f14       ?OnPaint@CCtrlView@@IAEXXZ 7c171f14 f   viewcore.obj
+ 0001:00030f1c       ?_messageEntries@CCtrlView@@0QBUAFX_MSGMAP_ENTRY@@B 7c171f1c     viewcore.obj
+ 0001:00030f4c       ?GetMessageMap@CScrollView@@MBEPBUAFX_MSGMAP@@XZ 7c171f4c f   viewscrl.obj
+ 0001:00030f4c       ?GetThisMessageMap@CScrollView@@KGPBUAFX_MSGMAP@@XZ 7c171f4c f   viewscrl.obj
+ 0001:00030f54       ?messageMap@CScrollView@@1UAFX_MSGMAP@@B 7c171f54     viewscrl.obj
+ 0001:00030f60       ?_messageEntries@CScrollView@@0QBUAFX_MSGMAP_ENTRY@@B 7c171f60     viewscrl.obj
+ 0001:00030ff0       ?OnCmdMsg@CView@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 7c171ff0 f   viewcore.obj
+ 0001:00031060       ??0CPushRoutingView@@QAE@PAVCView@@@Z 7c172060 f   viewcore.obj
+ 0001:00031092       ?OnCmdMsg@CDocument@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 7c172092 f   doccore.obj
+ 0001:000310d9       ?OnCmdMsg@COleDocument@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 7c1720d9 f   oleui1.obj
+ 0001:00031118       ?GetMessageMap@COleServerDoc@@MBEPBUAFX_MSGMAP@@XZ 7c172118 f   olesvr1.obj
+ 0001:00031118       ?GetThisMessageMap@COleServerDoc@@KGPBUAFX_MSGMAP@@XZ 7c172118 f   olesvr1.obj
+ 0001:00031120       ?messageMap@COleServerDoc@@1UAFX_MSGMAP@@B 7c172120     olesvr1.obj
+ 0001:00031128       ?_messageEntries@COleServerDoc@@0QBUAFX_MSGMAP_ENTRY@@B 7c172128     olesvr1.obj
+ 0001:000311a0       ?OnCmdMsg@CDocTemplate@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 7c1721a0 f   doctempl.obj
+ 0001:000311d7       ??1CPushRoutingView@@QAE@XZ 7c1721d7 f   viewcore.obj
+ 0001:000311f5       ?GetRuntimeClass@CCmdTarget@@UBEPAUCRuntimeClass@@XZ 7c1721f5 f   cmdtarg.obj
+ 0001:000311f5       ?GetThisClass@CCmdTarget@@SGPAUCRuntimeClass@@XZ 7c1721f5 f   cmdtarg.obj
+ 0001:000311fc       ?classCCmdTarget@CCmdTarget@@2UCRuntimeClass@@B 7c1721fc     cmdtarg.obj
+ 0001:00031218       ??_C@_0L@GDEMJNJL@CCmdTarget?$AA@ 7c172218     cmdtarg.obj
+ 0001:00031223       ?GetRuntimeClass@COleObjectFactory@@UBEPAUCRuntimeClass@@XZ 7c172223 f   olefact.obj
+ 0001:00031223       ?GetThisClass@COleObjectFactory@@SGPAUCRuntimeClass@@XZ 7c172223 f   olefact.obj
+ 0001:0003122c       ?classCOleObjectFactory@COleObjectFactory@@2UCRuntimeClass@@B 7c17222c     olefact.obj
+ 0001:00031248       ??_C@_0BC@DLMGPPAJ@COleObjectFactory?$AA@ 7c172248     olefact.obj
+ 0001:0003125a       ?GetRuntimeClass@CDocObjectServer@@UBEPAUCRuntimeClass@@XZ 7c17225a f   oledocob.obj
+ 0001:0003125a       ?GetThisClass@CDocObjectServer@@SGPAUCRuntimeClass@@XZ 7c17225a f   oledocob.obj
+ 0001:00031260       ?classCDocObjectServer@CDocObjectServer@@2UCRuntimeClass@@B 7c172260     oledocob.obj
+ 0001:0003127c       ??_C@_0BB@GGALAANK@CDocObjectServer?$AA@ 7c17227c     oledocob.obj
+ 0001:0003128d       ?GetRuntimeClass@CDocument@@UBEPAUCRuntimeClass@@XZ 7c17228d f   doccore.obj
+ 0001:0003128d       ?GetThisClass@CDocument@@SGPAUCRuntimeClass@@XZ 7c17228d f   doccore.obj
+ 0001:00031294       ?classCDocument@CDocument@@2UCRuntimeClass@@B 7c172294     doccore.obj
+ 0001:000312b0       ??_C@_09GGLMOPCJ@CDocument?$AA@ 7c1722b0     doccore.obj
+ 0001:000312ba       ?GetRuntimeClass@CDocTemplate@@UBEPAUCRuntimeClass@@XZ 7c1722ba f   doctempl.obj
+ 0001:000312ba       ?GetThisClass@CDocTemplate@@SGPAUCRuntimeClass@@XZ 7c1722ba f   doctempl.obj
+ 0001:000312c0       ?classCDocTemplate@CDocTemplate@@2UCRuntimeClass@@B 7c1722c0     doctempl.obj
+ 0001:000312dc       ??_C@_0N@PIIJNOBP@CDocTemplate?$AA@ 7c1722dc     doctempl.obj
+ 0001:000312e9       ?GetRuntimeClass@CWinThread@@UBEPAUCRuntimeClass@@XZ 7c1722e9 f   thrdcore.obj
+ 0001:000312e9       ?GetThisClass@CWinThread@@SGPAUCRuntimeClass@@XZ 7c1722e9 f   thrdcore.obj
+ 0001:000312f0       ?classCWinThread@CWinThread@@2UCRun

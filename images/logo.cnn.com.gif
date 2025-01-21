@@ -1,0 +1,37 @@
+tTypeInfoCount@CDHtmlControlSink@@UAGJPAI@Z 7c2f9ca2 f   dlgdhtml.obj
+ 0001:000a8ca2       ?GetTypeInfoCount@CDHtmlElementEventSink@@UAGJPAI@Z 7c2f9ca2 f   dlgdhtml.obj
+ 0001:000a8ca2       ?GetTypeInfoCount@CDHtmlEventSink@@UAGJPAI@Z 7c2f9ca2 f   dlgdhtml.obj
+ 0001:000a8cb1       ?GetIDsOfNames@CDHtmlControlSink@@UAGJABU_GUID@@PAPA_WIKPAJ@Z 7c2f9cb1 f   dlgdhtml.obj
+ 0001:000a8cb1       ?GetIDsOfNames@CDHtmlElementEventSink@@UAGJABU_GUID@@PAPA_WIKPAJ@Z 7c2f9cb1 f   dlgdhtml.obj
+ 0001:000a8cb1       ?GetIDsOfNames@CDHtmlEventSink@@UAGJABU_GUID@@PAPA_WIKPAJ@Z 7c2f9cb1 f   dlgdhtml.obj
+ 0001:000a8cb9       ?GetInterfaceHook@CBrowserControlSite@@MAEPAUIUnknown@@PBX@Z 7c2f9cb9 f   dlgdhtml.obj
+ 0001:000a8ce6       ?QueryInterface@CBrowserControlSite@@MAGJABU_GUID@@PAPAX@Z 7c2f9ce6 f   dlgdhtml.obj
+ 0001:000a8d00       ?AddRef@CBrowserControlSite@@MAGKXZ 7c2f9d00 f   dlgdhtml.obj
+ 0001:000a8d12       ?Release@CBrowserControlSite@@MAGKXZ 7c2f9d12 f   dlgdhtml.obj
+ 0001:000a8d24       ?ShowContextMenu@CBrowserControlSite@@MAGJKPAUtagPOINT@@PAUIUnknown@@PAUIDispatch@@@Z 7c2f9d24 f   dlgdhtml.obj
+ 0001:000a8d46       ?GetHostInfo@CBrowserControlSite@@MAGJPAU_DOCHOSTUIINFO@@@Z 7c2f9d46 f   dlgdhtml.obj
+ 0001:000a8d5d       ?ShowUI@CBrowserControlSite@@MAGJKPAUIOleInPlaceActiveObject@@PAUIOleCommandTarget@@PAUIOleInPlaceFrame@@PAUIOleInPlaceUIWindow@@@Z 7c2f9d5d f   dlgdhtml.obj
+ 0001:000a8d82       ?HideUI@CBrowserControlSite@@MAGJXZ 7c2f9d82 f   dlgdhtml.obj
+ 0001:000a8d95       ?UpdateUI@CBrowserControlSite@@MAGJXZ 7c2f9d95 f   dlgdhtml.obj
+ 0001:000a8da8       ?EnableModeless@CBrowserControlSite@@MAGJH@Z 7c2f9da8 f   dlgdhtml.obj
+ 0001:000a8dbf       ?OnDocWindowActivate@CBrowserControlSite@@MAGJH@Z 7c2f9dbf f   dlgdhtml.obj
+ 0001:000a8dd6       ?OnFrameWindowActivate@CBrowserControlSite@@MAGJH@Z 7c2f9dd6 f   dlgdhtml.obj
+ 0001:000a8ded       ?ResizeBorder@CBrowserControlSite@@MAGJPBUtagRECT@@PAUIOleInPlaceUIWindow@@H@Z 7c2f9ded f   dlgdhtml.obj
+ 0001:000a8e0c       ?TranslateAcceleratorW@CBrowserControlSite@@MAGJPAUtagMSG@@PBU_GUID@@K@Z 7c2f9e0c f   dlgdhtml.obj
+ 0001:000a8e2b       ?GetOptionKeyPath@CBrowserControlSite@@MAGJPAPA_WK@Z 7c2f9e2b f   dlgdhtml.obj
+ 0001:000a8e46       ?GetDropTarget@CBrowserControlSite@@MAGJPAUIDropTarget@@PAPAU2@@Z 7c2f9e46 f   dlgdhtml.obj
+ 0001:000a8e61       ?GetExternal@CBrowserControlSite@@MAGJPAPAUIDispatch@@@Z 7c2f9e61 f   dlgdhtml.obj
+ 0001:000a8e78       ?TranslateUrl@CBrowserControlSite@@MAGJKPA_WPAPA_W@Z 7c2f9e78 f   dlgdhtml.obj
+ 0001:000a8e97       ?FilterDataObject@CBrowserControlSite@@MAGJPAUIDataObject@@PAPAU2@@Z 7c2f9e97 f   dlgdhtml.obj
+ 0001:000a8eb2       ?OnDestroyModeless@CDHtmlDialog@@IAEJIJ@Z 7c2f9eb2 f   dlgdhtml.obj
+ 0001:000a8ebc       ?_AfxSimpleScanf@CDHtmlDialog@@IAEHPB_W0PAD@Z 7c2f9ebc f   dlgdhtml.obj
+ 0001:000a8f73       ?_AfxSimpleFloatParse@CDHtmlDialog@@IAEHPB_WAAN@Z 7c2f9f73 f   dlgdhtml.obj
+ 0001:000a8fea       ?GetControlProperty@CDHtmlDialog@@QAE?AUtagVARIANT@@PAUIDispatch@@J@Z 7c2f9fea f   dlgdhtml.obj
+ 0001:000a903c       ?SetControlProperty@CDHtmlDialog@@QAEXPAUIDispatch@@JPAUtagVARIANT@@@Z 7c2fa03c f   dlgdhtml.obj
+ 0001:000a9087       ?SetHostFlags@CDHtmlDialog@@QAEXK@Z 7c2fa087 f   dlgdhtml.obj
+ 0001:000a9094       ?GetDHtmlEventMap@CDHtmlDialog@@MAEPBUDHtmlEventMapEntry@@XZ 7c2fa094 f   dlgdhtml.obj
+ 0001:000a9094       ?IsExternalDispatchSafe@CDHtmlDialog@@UAEHXZ 7c2fa094 f   dlgdhtml.obj
+ 0001:000a9097       ?ShowContextMenu@CDHtmlDialog@@UAGJKPAUtagPOINT@@PAUIUnknown@@PAUIDispatch@@@Z 7c2fa097 f   dlgdhtml.obj
+ 0001:000a909d       ?GetHostInfo@CDHtmlDialog@@UAGJPAU_DOCHOSTUIINFO@@@Z 7c2fa09d f   dlgdhtml.obj
+ 0001:000a90b3       ?ShowUI@CDHtmlDialog@@UAGJKPAUIOleInPlaceActiveObject@@PAUIOleCommandTarget@@PAUIOleInPlaceFrame@@PAUIOleInPlaceUIWindow@@@Z 7c2fa0b3 f   dlgdhtml.obj
+ 0001:000a90b9       ?HideUI@CDHtmlD

@@ -1,0 +1,9 @@
+t@@QAEPAUIUnknown@@PBX@Z 7c174e1d f   oleunk.obj
+ 0001:00033e59       ?GetInterfaceMap@CWnd@@MBEPBUAFX_INTERFACEMAP@@XZ 7c174e59 f   wincore.obj
+ 0001:00033e59       ?GetThisInterfaceMap@CWnd@@KGPBUAFX_INTERFACEMAP@@XZ 7c174e59 f   wincore.obj
+ 0001:00033e60       ?interfaceMap@CWnd@@1UAFX_INTERFACEMAP@@B 7c174e60     wincore.obj
+ 0001:00033e68       ?_interfaceEntries@CWnd@@0QBUAFX_INTERFACEMAP_ENTRY@@B 7c174e68     wincore.obj
+ 0001:00033e70       ?GetInterfaceMap@COleObjectFactory@@MBEPBUAFX_INTERFACEMAP@@XZ 7c174e70 f   olefact.obj
+ 0001:00033e70       ?GetThisInterfaceMap@COleObjectFactory@@KGPBUAFX_INTERFACEMAP@@XZ 7c174e70 f   olefact.obj
+ 0001:00033e78       ?interfaceMap@COleObjectFactory@@1UAFX_INTERFACEMAP@@B 7c174e78     olefact.obj
+ 00
